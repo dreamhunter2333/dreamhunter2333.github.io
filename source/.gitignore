@@ -1,0 +1,9 @@
+.*
+!.gitignore
+*.DS_Store
+*DS_Store
+*.swp
+imgs/.DS_Store
+.DS_Store
+imgs/.DS_Store
+.DS_Store

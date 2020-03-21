@@ -89,15 +89,6 @@ live2d:
   mobile:
     show: false
 
-# Gitment
-# Introduction: https://imsun.net/posts/gitment-introduction/
-# gitment:
-#   enable: true
-#   githubID: jinmu333
-#   repo: blog_gitment
-#   ClientID: 9f30df6c27d682bca494
-#   ClientSecret: b1d88f19b7e504499594a55f9c5074fbc8a35fa5
-  # lazy: false
 # 友情链接
 # friends: [
 #     {

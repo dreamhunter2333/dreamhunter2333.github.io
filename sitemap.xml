@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jcstaff.club/2020/Install-font-source-code-pro/</loc>
+    
+    <lastmod>2020-03-21T15:19:01.236Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jcstaff.club/2018/luckydraw/</loc>
     
     <lastmod>2020-03-21T14:10:55.872Z</lastmod>
@@ -366,13 +373,6 @@
   </url>
   
   <url>
-    <loc>https://jcstaff.club/2019/Odoo-ir-cron/</loc>
-    
-    <lastmod>2019-09-24T07:45:19.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jcstaff.club/2019/Odoo-ir-rule/</loc>
     
     <lastmod>2019-09-24T07:45:19.000Z</lastmod>
@@ -380,14 +380,14 @@
   </url>
   
   <url>
-    <loc>https://jcstaff.club/2019/Odoo-mail-message/</loc>
+    <loc>https://jcstaff.club/2019/Odoo-many2one-hide-create/</loc>
     
     <lastmod>2019-09-24T07:45:19.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jcstaff.club/2019/Odoo-many2one-hide-create/</loc>
+    <loc>https://jcstaff.club/2019/Odoo-ir-cron/</loc>
     
     <lastmod>2019-09-24T07:45:19.000Z</lastmod>
     
@@ -402,6 +402,13 @@
   
   <url>
     <loc>https://jcstaff.club/2019/Odoo-models-AbstractModel/</loc>
+    
+    <lastmod>2019-09-24T07:45:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jcstaff.club/2019/Odoo-mail-message/</loc>
     
     <lastmod>2019-09-24T07:45:19.000Z</lastmod>
     
@@ -464,14 +471,14 @@
   </url>
   
   <url>
-    <loc>https://jcstaff.club/2019/%E7%82%AB%E9%BE%99%E8%80%807000%20hackintosh%20%E5%85%A8%E8%BF%87%E7%A8%8B/</loc>
+    <loc>https://jcstaff.club/2019/%E7%82%AB%E9%BE%99%E8%80%807000-hackintosh%E5%85%A8%E8%BF%87%E7%A8%8B/</loc>
     
     <lastmod>2019-08-16T11:27:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jcstaff.club/2019/%E7%82%AB%E9%BE%99%E8%80%807000-hackintosh%E5%85%A8%E8%BF%87%E7%A8%8B/</loc>
+    <loc>https://jcstaff.club/2019/%E7%82%AB%E9%BE%99%E8%80%807000%20hackintosh%20%E5%85%A8%E8%BF%87%E7%A8%8B/</loc>
     
     <lastmod>2019-08-16T11:27:26.000Z</lastmod>
     
@@ -492,14 +499,14 @@
   </url>
   
   <url>
-    <loc>https://jcstaff.club/search/index.html</loc>
+    <loc>https://jcstaff.club/tags/index.html</loc>
     
     <lastmod>2019-08-16T11:27:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jcstaff.club/tags/index.html</loc>
+    <loc>https://jcstaff.club/search/index.html</loc>
     
     <lastmod>2019-08-16T11:27:26.000Z</lastmod>
     

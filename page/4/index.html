@@ -160,6 +160,60 @@
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
+					<a class="post-card-content-link" title="python类中的self参数和cls参数" href="/2019/python-class-self-and-cls/">
+						<header class="post-card-header">
+							<span class="post-card-tags">
+								
+								
+								python
+								| 
+								
+								<time datetime="2019-09-03T08:41:00.000Z">
+									2019-09-03
+								</time>
+							</span>
+							<h2 class="post-card-title">python类中的self参数和cls参数</h2>
+						</header>
+						<div class="post-card-excerpt">
+							<p>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								python类中的self参数和cls参数
+类先调用new方法，返回该类的实例对象这个实例对象就是init方法的第一个参数self，即self是new的返回值
+
+								...
+							</p>
+						</div>
+					</a>
+					<footer class="post-card-meta">
+						<div class="author-list">
+							<div class="author-list-item">
+								<div class="author-name-tooltip">dreamhunter</div>
+								
+								<a href="/about" class="static-avatar">
+									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
+								</a>
+								
+							</div>
+						</div>
+						<span class="reading-time">
+							1
+							min read
+						</span>
+					</footer>
+				</div>
+			</article>
+			
+			<article class="post-card post  no-image ">
+				
+				<div class="post-card-content">
 					<a class="post-card-content-link" title="Odoo models.AbstractModel" href="/2019/Odoo-models-AbstractModel/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
@@ -183,12 +237,15 @@
 								
 								
 								
-								
-								
 								Odoo 抽象类定义 AbstractModel
 无需外部id
 
-1234567# -*- coding: utf-8 -*-from odoo import 
+1234567# -*- coding: utf-8 -*-from odoo import api, fields, modelsclass Test(models.AbstractModel):    _name = 'odoo.test'    ...
+
+继承 抽象类
+有效解决代码重复
+
+123class Test(models.Model):    _inherit = ['odoo.test']   
 								...
 							</p>
 						</div>
@@ -758,62 +815,6 @@ readonly：该字段是否只读
 				</div>
 			</article>
 			
-			<article class="post-card post  no-image ">
-				
-				<div class="post-card-content">
-					<a class="post-card-content-link" title="Odoo @api.* 装饰器" href="/2019/Odoo-api-decorators/">
-						<header class="post-card-header">
-							<span class="post-card-tags">
-								
-								
-								odoo
-								| 
-								
-								<time datetime="2019-08-19T10:37:22.000Z">
-									2019-08-19
-								</time>
-							</span>
-							<h2 class="post-card-title">Odoo @api.* 装饰器</h2>
-						</header>
-						<div class="post-card-excerpt">
-							<p>
-								
-								
-								
-								
-								
-								
-								
-								Odoo @api.* 装饰器@api.one
-one的用法主要用于self为单一记录的情况，self仅代表当前正在操作的记录。
-
-@api.multi
-multi则指self是多个记录的合集。因此，常使用for—in语句遍历self。multi通常用于：在tree视图中点选多条记录，然后执行某方法，那么那个方法必须用@api.multi修饰，而参数中的self则代表选中的多条记录。如果仅仅是在form视图下操作，那么self中通常只有当前正在操作的记录。
-
-@api.mod
-								...
-							</p>
-						</div>
-					</a>
-					<footer class="post-card-meta">
-						<div class="author-list">
-							<div class="author-list-item">
-								<div class="author-name-tooltip">dreamhunter</div>
-								
-								<a href="/about" class="static-avatar">
-									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
-								</a>
-								
-							</div>
-						</div>
-						<span class="reading-time">
-							2
-							min read
-						</span>
-					</footer>
-				</div>
-			</article>
-			
 		</div>
 	</div>
 </div>
@@ -858,6 +859,12 @@ multi则指self是多个记录的合集。因此，常使用for—in语句遍历
       
       
       <li>
+        <a href="/2020/Install-font-source-code-pro/">安装 source-code-pro 字体</a>
+      </li>
+      
+      
+      
+      <li>
         <a href="/2020/timeit-Measure-execution-time/">timeit 测量小代码片段的执行时间</a>
       </li>
       
@@ -868,10 +875,6 @@ multi则指self是多个记录的合集。因此，常使用for—in语句遍历
       </li>
       
       
-      
-      <li>
-        <a href="/2020/what’s-new-in-python3-8/">What’s New In Python 3.8</a>
-      </li>
       
       
       

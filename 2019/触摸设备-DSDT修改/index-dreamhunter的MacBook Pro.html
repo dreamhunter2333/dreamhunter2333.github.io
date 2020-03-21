@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+
+
+<head>
+	<meta charset="utf-8">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#323336">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="apple-mobile-web-app-title" content="Dreamhunter Blog">
+	<link rel="apple-touch-icon" href="/imgs/app.png">
+	<meta name="application-name" content="Dreamhunter Blog">
+	<meta name="msapplication-TileColor" content="#323336">
+	<meta name="msapplication-square612x612logo" content="/imgs/app.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="preconnect" href="//www.googletagmanager.com">
+	<link rel="preconnect" href="//zz.bdstatic.com">
+	<link rel="preconnect" href="//sp0.baidu.com">
+	<link rel="preconnect" href="//www.google-analytics.com">
+	<link rel="preconnect" href="//cdn1.lncld.net">
+	<link rel="preconnect" href="//unpkg.com">
+	<link rel="preconnect" href="//app-router.leancloud.cn">
+	<link rel="preconnect" href="//9qpuwspm.api.lncld.net">
+	<link rel="preconnect" href="//gravatar.loli.net">
+
+	<title>触摸设备 DSDT修改(转载) | Dreamhunter Blog</title>
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+	<meta name="generator" content="hexo">
+	<meta name="author" content="dreamhunter">
+	<meta name="description" content>
+
+	
+	<meta name="keywords" content>
+	
+
+	
+	<link rel="shortcut icon" href="/imgs/favicon.ico">
+	<link rel="apple-touch-icon" href="/imgs/favicon.ico">
+	
+
+	
+
+	
+
+	
+
+	<meta property="og:site_name" content="Dreamhunter Blog">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="触摸设备 DSDT修改(转载) | Dreamhunter Blog">
+	<meta property="og:description" content>
+	<meta property="og:url" content="https://jcstaff.club/2019/触摸设备-DSDT修改/">
+
+	
+	<meta property="article:published_time" content="2019-04-28T18:04:00+08:00"> 
+	<meta property="article:author" content="dreamhunter">
+	<meta property="article:published_first" content="Dreamhunter Blog, /2019/触摸设备-DSDT修改/">
+	
+
+	
+	
+	<link rel="stylesheet" href="/css/allinonecss.min.css">
+
+	
+	
+	
+</head>
+<body class="post-template">
+	<div class="site-wrapper">
+		
+
+
+
+
+<header class="site-header post-site-header outer">
+    <div class="inner">
+        
+<nav class="site-nav"> 
+    <div class="site-nav-left">
+        <ul class="nav">
+            <li>
+                
+                <a href="/" title="Home">HOME</a>
+                
+            </li>
+            
+            
+            <li>
+                <a href="/archives" title="ARCHIVES">ARCHIVES</a>
+            </li>
+            
+            <li>
+                <a href="/about" title="ABOUT">ABOUT</a>
+            </li>
+            
+            
+        </ul> 
+    </div>
+    
+    <div class="search-button-area">
+        <a href="#search" class="search-button">Search ...</a>
+    </div>
+     
+    <div class="site-nav-right">
+        
+        <a href="#search" class="search-button">Search ...</a>
+         
+        
+<div class="social-links">
+    
+    
+    <a class="social-link" title="github" href="https://github.com/jinmu333" target="_blank" rel="noopener">
+        <svg viewbox="0 0 1049 1024" xmlns="http://www.w3.org/2000/svg"><path d="M524.979332 0C234.676191 0 0 234.676191 0 524.979332c0 232.068678 150.366597 428.501342 358.967656 498.035028 26.075132 5.215026 35.636014-11.299224 35.636014-25.205961 0-12.168395-0.869171-53.888607-0.869171-97.347161-146.020741 31.290159-176.441729-62.580318-176.441729-62.580318-23.467619-60.841976-58.234462-76.487055-58.234463-76.487055-47.804409-32.15933 3.476684-32.15933 3.476685-32.15933 53.019436 3.476684 80.83291 53.888607 80.83291 53.888607 46.935238 79.963739 122.553122 57.365291 152.97411 43.458554 4.345855-33.897672 18.252593-57.365291 33.028501-70.402857-116.468925-12.168395-239.022047-57.365291-239.022047-259.012982 0-57.365291 20.860106-104.300529 53.888607-140.805715-5.215026-13.037566-23.467619-66.926173 5.215027-139.067372 0 0 44.327725-13.906737 144.282399 53.888607 41.720212-11.299224 86.917108-17.383422 131.244833-17.383422s89.524621 6.084198 131.244833 17.383422C756.178839 203.386032 800.506564 217.29277 800.506564 217.29277c28.682646 72.1412 10.430053 126.029806 5.215026 139.067372 33.897672 36.505185 53.888607 83.440424 53.888607 140.805715 0 201.64769-122.553122 245.975415-239.891218 259.012982 19.121764 16.514251 35.636014 47.804409 35.636015 97.347161 0 70.402857-0.869171 126.898978-0.869172 144.282399 0 13.906737 9.560882 30.420988 35.636015 25.205961 208.601059-69.533686 358.967656-265.96635 358.967655-498.035028C1049.958663 234.676191 814.413301 0 524.979332 0z"/></svg>
+    </a>
+    
+    
+    
+    
+    
+    <a class="social-link" title="bilibili" href="https://bilibili.com" target="_blank" rel="noopener">
+        <svg viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M360.896 183.968l-90.912-88.096s-14.208-17.472 9.824-37.248c24.16-19.648 25.376-10.912 33.504-5.472s135.2 130.816 135.2 130.816zm301.952 3.264l90.912-88.096s14.208-17.472-9.824-37.248c-24.032-19.648-25.376-10.912-33.504-5.472s-135.2 130.816-135.2 130.816zM1004 350.336c-3.264-137.984-123.168-164.192-123.168-164.192s-614.336-4.96-742.496 0C10.176 222.304 20 350.336 20 350.336s1.696 274.272-.128 413.12c13.824 138.848 120.864 160.928 120.864 160.928s42.72.864 73.92.864c3.264 8.992 5.696 52.544 54.24 52.544 48.416 0 54.24-52.544 54.24-52.544s354.88-1.696 384.352-1.696c1.696 14.816 8.992 54.976 57.536 54.24 48.416-.864 51.712-57.536 51.712-57.536s16.384-1.696 65.664 0C997.344 898.88 1004 764.192 1004 764.192s-1.568-275.872 0-413.856zm-98.912 439.232c0 21.728-17.248 39.456-38.464 39.456H167.2c-21.248 0-38.464-17.6-38.464-39.456V326.336c0-21.728 17.248-39.456 38.464-39.456h699.424c21.248 0 38.464 17.6 38.464 39.456zM202.4 457.152l205.344-39.456 15.52 77.184-203.648 39.456zm638.976 0l-205.344-39.456-15.648 77.184 203.776 39.456zm-418.08 191.392s45.152 81.312 95.264-26.336c48.416 105.088 101.824 27.904 101.824 27.904l30.336 19.776s-56.672 91.136-131.424 22.208c-63.232 68.928-129.728-21.952-129.728-21.952z"/></svg>
+    </a>
+    
+    
+</div>
+    </div>
+</nav>
+    </div>
+</header>
+
+
+<div id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+        <header class="post-full-header">
+            <div class="post-full-meta">
+                <time class="post-full-meta-date" datetime="2019-04-28T10:32:01.000Z">
+                    2019-04-28
+                </time>
+                
+                <span class="date-divider">/</span>
+                
+                <a href="/categories/hackintosh/">hackintosh</a>&nbsp;&nbsp;
+                
+                
+            </div>
+            <h1 class="post-full-title">触摸设备 DSDT修改(转载)</h1>
+        </header>
+        <div class="post-full no-image">
+            
+            <div class="post-full-content">
+                <article id="photoswipe" class="markdown-body">
+                    <h2 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h2><p><a href="https://github.com/williambj1/VoodooI2C-PreRelease/blob/master/%E8%A7%A6%E6%91%B8%E6%9D%BF%E8%A1%A5%E5%85%85.md" target="_blank" rel="noopener">原文链接</a></p>
+<h2 id="触摸设备-DSDT-修补补充"><a href="#触摸设备-DSDT-修补补充" class="headerlink" title="触摸设备 DSDT 修补补充"></a>触摸设备 DSDT 修补补充</h2><h2 id="致那些无脑放完驱动就能用了的小小小白"><a href="#致那些无脑放完驱动就能用了的小小小白" class="headerlink" title="致那些无脑放完驱动就能用了的小小小白"></a>致那些无脑放完驱动就能用了的小小小白</h2><blockquote>
+<p>VoodoI2C 不同于仍和一个其他的黑苹果驱动，直接将驱动放入 Clover 或者 L/E 是 <strong>完全错误</strong> 的做法，根据个人经验，高达 90% 以上的设备都默认使用 APIC 中断，只有极少数都设备默认  使用 GPIO 中断，然而，又因为绝大多数设备的 IOInterruptSpecifiers 都大于 2F，因此 APIC 中断控制器根本就不会工作，所以，即使你把驱动放进去能用了，也是极为低效的轮询模式，如果你阅读完 <a href="https://www.penghubingzhou.cn/" target="_blank" rel="noopener">群主博客</a> 和 本篇教程，你会发现这个问题显而易见。</p>
+</blockquote>
+<p><img alt="Circumstances" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Circumstances.png" data-index="0" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Circumstances.png"></p>
+<blockquote>
+<p>仅有极少数情况默认就能正确驱动</p>
+</blockquote>
+<h2 id="致刚接触触摸板的小白"><a href="#致刚接触触摸板的小白" class="headerlink" title="致刚接触触摸板的小白"></a>致刚接触触摸板的小白</h2><blockquote>
+<p>在看这篇文章前，请仔细阅读<a href="https://www.penghubingzhou.cn/" target="_blank" rel="noopener">群主博客</a>，这篇文章旨在补充教程中没有的小细节，文章啰嗦但非常详细（废话连篇），请您耐心阅读（别光欣赏图片去了😝）</p>
+</blockquote>
+<h2 id="F-amp-Q"><a href="#F-amp-Q" class="headerlink" title="F&amp;Q"></a>F&amp;Q</h2><ol>
+<li><p>Dalao! 我虽然没有尝试，但是我想问问的触摸板到底能不能驱动啊！</p>
+<ul>
+<li>“实践是检验真理的唯一标准”，我们并不能够通过您的三两句提问确定到底能不能成功，行动起来，发现问题，解决问题，才是真理！👨‍🔧</li>
+</ul>
+</li>
+<li><p>Dalao! 我该怎么用这些驱动，全部放进去吗?</p>
+<ul>
+<li>那就大错特错了，除非你同时拥有多个触摸设备，要不然就是使用其中的两个驱动 VoodooI2C + VoodooI2CXXX, 一个核心驱动，一个附属驱动，至于<strong>怎么选择附属驱动</strong>，请看<a href="https://www.penghubingzhou.cn/" target="_blank" rel="noopener">群主博客</a>。</li>
+</ul>
+</li>
+<li><p>Dalao! 群里的人都在说哪国语言啊，什么 HID, GPIO 是什么鬼？？？</p>
+<ul>
+<li>仔细阅读下文的👇<code>触摸板专有词汇集合</code>没什么你搞不懂的🤨。</li>
+</ul>
+</li>
+<li><p>Dalao! IORegisteryExplorer 里面触摸板设备名称里面没有 IOInterruptSpecifiers ，怎么办？</p>
+<ul>
+<li>确保你没有安装 VoodooI2C。</li>
+<li>如果在没有安装 VoodooI2C 时依然没有这就说明你无需对 DSDT 进行修改！你的运气帮了你一个大忙。不过也有极少数的例外，而且处理较为复杂，<a href="https://github.com/williambj1/VoodooI2C-PreRelease/blob/master/%E8%A7%A6%E6%91%B8%E6%9D%BF%E8%A1%A5%E5%85%85.md#dsdt-%E8%A7%A6%E6%91%B8%E6%9D%BF%E9%83%A8%E5%88%86%E8%AF%A6%E8%A7%A3" target="_blank" rel="noopener">请阅读此处（4. 例外 1）来通过 Windows 确认你的 Pin 值</a>，这需要你打包求助，由我们来为你解决。</li>
+</ul>
+</li>
+<li><p>Dalao! VoodooI2C 是不是万能的，能不能完美解决所有的触摸设备？</p>
+<ul>
+<li>不幸的是，答案是<code>不是</code>，VoodooI2C 目前仍然存在对一些设备的兼容问题。</li>
+</ul>
+</li>
+<li><p>Dalao! 什么是轮询？什么是中断？</p>
+<ul>
+<li><p>现实中的中断和轮询可以看看这个👉<a href="https://baike.baidu.com/item/%E8%BD%AE%E8%AF%A2%E5%92%8C%E4%B8%AD%E6%96%AD/267433?fr=aladdin" target="_blank" rel="noopener">🚪</a>。</p>
+</li>
+<li><p>在触摸板上，我们这样定义：</p>
+<blockquote>
+<p>轮询就是每隔一个特定的时间扫描一次触摸板的状态，然后改变鼠标指针坐标。<br>中断则是你触摸板的正常工作方式 (Windows / Linux 中即是如此)。</p>
+</blockquote>
+</li>
+<li><p>在 DSDT 的修改中我们这样定义：（请仔细阅读下文👇）。</p>
+<blockquote>
+<p><strong>GPIO 中断：</strong> DSDT 在 <code>SBFG</code> 中存在有效 <code>GPIO Pin</code>，<code>CRS</code> 方法中返回 <code>(SBFB,SBFG)</code>，并应用启用 <code>GPIO</code> 控制器的补丁。<br><strong>APIC 中断：</strong> （注意，不是 ACPI）当你的 IOInterruptSpecifiers 值 <strong>没有</strong> 或者小于<code>2F(16进制)</code>时，此时就是 APIC 中断，无需对 DSDT 进行大量修改，只用应用 <code>Windows(20XX) 补丁</code>即可。此时使用的是 APIC 控制器而不是 GPIO 控制器。<br><strong>轮询：</strong> DSDT 中除了 <code>Windows(20XX)</code> 补丁以外，不应用其他补丁，CRS 方法中只返回 <code>SBFB</code> 或者 <code>(SBFB,SBFI)</code>。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>Dalao! 到底是中断好还是轮询好？😖</p>
+<ul>
+<li>正如上文所述，中断才是触摸板的正确驱动方式，但受到 VoodooI2C 驱动，苹果触摸驱动及自身设备 GPIO 特殊性等等原因，有些设备只能通过<strong>轮询</strong>的方式驱动，轮询就像 Windows 里的<strong>安全模式</strong>，因为触摸板本身就不是设计来在一定时间不断轮询的，所以注定有 <code>Bug</code> 比如指针漂移，少手指等等，但是用这种方式驱动总比没有驱动强。</li>
+</ul>
+</li>
+<li><p>Dalao! DSDT 里我找不到我的触摸板啊，搜不到 <code>SBFG</code> 怎么办？</p>
+<ul>
+<li>你可以尝试搜索你的设备名，比如(<code>ETPD</code>, <code>TPDO</code>, <code>TPAD</code>等等)。</li>
+</ul>
+</li>
+<li><p>Dalao! DSDT 看得头晕眼花怎么办？</p>
+<ul>
+<li>请看下方的 DSDT 触摸板部分详解👇</li>
+</ul>
+</li>
+<li><p>Dalao! APIC 中断和 GPIO 中断有什么区别？</p>
+<ul>
+<li>两者使用不同的控制器</li>
+<li>APIC 中断省时省力，但是要看看你有没有这个福气了</li>
+<li>GPIO 则需要 VoodooGPIO (已包含在VoodooI2C中作为插件) 来启用 GPIO 控制器，同时也需要对 DSDT 进行相对复杂的修改（其实很简单）</li>
+</ul>
+</li>
+<li><p>Dalao! 能不能通过终端重新加载 VoodooI2C ？</p>
+<ul>
+<li>不幸的是，这个功能被某一次更新破坏了，官方至今未修复</li>
+</ul>
+</li>
+</ol>
+<h2 id="触摸板专有词汇集合"><a href="#触摸板专有词汇集合" class="headerlink" title="触摸板专有词汇集合"></a>触摸板专有词汇集合</h2><ol>
+<li>HID<blockquote>
+<p>Human Interface Device 说白了就是人和电脑交互的设备</p>
+</blockquote>
+</li>
+<li>ELAN<blockquote>
+<p>ElanTech 生产的触摸板，简称 ELAN，常见于华硕电脑</p>
+</blockquote>
+</li>
+<li>SYNA<blockquote>
+<p>Synaptics 新思触摸板</p>
+</blockquote>
+</li>
+<li>CRS方法<blockquote>
+<p>DSDT 中用于返回值的“方法”</p>
+</blockquote>
+</li>
+<li>PS/2<blockquote>
+<p>PS/2 通道的触摸板，请使用 VoodooPS2 (Acidanthera自带手势), 如果出问题可以尝试 Rehabman 版本并配上手势文件，不建议使用 ApplePS2SmartTouchPad (多年未更新，且不开源)</p>
+</blockquote>
+</li>
+<li>I2C<blockquote>
+<p>I2C 通道的触摸板，请使用 VoodooI2C</p>
+</blockquote>
+</li>
+<li>先暂时想到这么多。。。。</li>
+</ol>
+<h2 id="触摸板必备软件集合-均在群文件中"><a href="#触摸板必备软件集合-均在群文件中" class="headerlink" title="触摸板必备软件集合(均在群文件中)"></a>触摸板必备软件集合(均在群文件中)</h2><ul>
+<li>MaciASL – 用于修改 DSDT</li>
+<li>IORegisteryExplorer v2.1 <strong>(请勿使用其他版本)</strong> – 用于查看数据 / 排错</li>
+<li>FingerMgmt – 用于查看识别手指个数</li>
+<li>maclog – 用于查看日志排错</li>
+</ul>
+<h2 id="DSDT-触摸板部分详解"><a href="#DSDT-触摸板部分详解" class="headerlink" title="DSDT 触摸板部分详解"></a>DSDT 触摸板部分详解</h2><ol>
+<li><p>当你在 DSDT 里搜索 SBFG 或者你的触摸板名称时，会大致出来以下代码(是不是头晕眼花😵)</p>
+<p><img alt="Mess" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/ETPD.png" data-index="1" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/ETPD.png"></p>
+</li>
+<li><p>我们来提取提取主干，仔细看看不难发现其结构(我们需要了解的部分)如下，是不是一目了然？</p>
+<p><img alt="Main" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Main.png" data-index="2" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Main.png"></p>
+</li>
+<li><p>接下来( GPIO 中断修改)</p>
+<ol>
+<li><p>接下来请不断查看此处确保你一直位于你的触摸板里面</p>
+<p><img alt="Check" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Check.png" data-index="3" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Check.png"></p>
+</li>
+<li><p>应用所需的补丁，并按下编译，查看是否有错误，如有错误，请打包求助</p>
+</li>
+<li><p>移除 SBFI，或者有的 DSDT 的 SBFI 内容内嵌于 SBFB，请删除其中的代码</p>
+</li>
+<li><p>如果你的 DSDT 里本身就有 SBFG 且 <code>Pin List</code> 下方的内容不为零，那么直接跳到本小节的第 6 步，如果没有，请继续往下看</p>
+</li>
+<li><p>如果您没有 SBFG，请复制如下代码手动添加</p>
+<p><img alt="NO-SBFG" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/NO-SBFG.png" data-index="4" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/NO-SBFG.png">  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"> Name (SBFG, ResourceTemplate ()</span><br><span class="line">&#123;</span><br><span class="line">    GpioInt (Level, ActiveLow, ExclusiveAndWake, PullDefault, 0x0000,</span><br><span class="line">        &quot;\\_SB.PCI0.GPI0&quot;, 0x00, ResourceConsumer, ,</span><br><span class="line">        )</span><br><span class="line">        &#123;   // Pin list</span><br><span class="line">            0x修改</span><br><span class="line">        &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>添加完和上面一样就好了</p>
+</li>
+<li><p>确定 GPIO Pin，按照群主博客指示查找你的 GPIO Pin，把 <code>修改</code> 改成你的值(有的时候转化出来的值不止一个，请制作两份文件依次尝试)。</p>
+</li>
+<li><p>转到 <code>CRS</code> 方法(别翻过头了，数一数大括号，看一眼左下角，确保你还在你的触摸板里。</p>
+<p>  <img alt="Sure-CRS" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Sure-CRS.png" data-index="5" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Sure-CRS.png"></p>
+<ul>
+<li>把所有的 Return (XXXX) 和 Return (<strong>ConcatenateResTemplate</strong> (<code>SBFB</code>, <strong>XXXX</strong>)) 都修改成 <code>(SBFB,SBFG)</code>。</li>
+<li><strong>或者</strong><ol>
+<li>清空里面的一堆 If 条件语句（如果有），将里面的 <code>(SBFB,SBFI)</code> 改成 <code>(SBFB,SBFG)</code>。</li>
+<li>按<code>编译</code>键查看是否有错误，删掉发生错误的行(此行必须位于触摸板中，且在报告中夹在在一堆警告⚠️中)。</li>
+</ol>
+</li>
+</ul>
+<p><img alt="Return-SBFG" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Return-SBFG.png" data-index="6" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Return-SBFG.png"></p>
+</li>
+<li><p>没有错误那就大功告成了。</p>
+</li>
+</ol>
+</li>
+<li><p>例外</p>
+<ul>
+<li><p>有些情况非常极端，需要通过 Windows 来确定你的 IOInterruptSpecifiers 具体方法如下：</p>
+<ol>
+<li>打开设备管理器</li>
+<li>找到 I2C HID 设备</li>
+<li>双击点开，转到 <code>资源</code> 页面</li>
+<li>里面的 <code>IRQ</code> 就是 IOInterruptSpecifiers</li>
+</ol>
+<p><img alt="Pin-1024" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Pin-1024.png" data-index="7" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Pin-1024.png"></p>
+</li>
+<li><p>有的 DSDT 里，<code>SBFB</code>, <code>SBFG</code>, <code>SBFI</code> 这些值位于 <code>CRS</code> 方法中，与常规的结构有所不同，不过这种情况问题不大，你依然可以继续按教程修改。</p>
+<p><img alt="In-CRS" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/In-CRS.png" data-index="8" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/In-CRS.png"></p>
+</li>
+<li><p>有的 DSDT 里，<code>SBFB</code>, <code>SBFG</code>, <code>SBFI</code> 这些值不仅设备的根目录里有，<code>CRS</code> 方法中也有，与常规的结构大有不同，这种情况就需要你灵活变通理解到底那个起作用，通常情况下修改 <code>CRS</code> 方法里的就可以了，如果你多次尝试还是搞不定，请打包求助。</p>
+</li>
+<li><p>有的 DSDT 更加让人摸不着头脑🧠，除了有 <code>SBFB</code>, <code>SBFG</code>, <code>SBFI</code>，还有 <code>SBFS</code>, <code>SBFF</code>, <code>SBFE</code> 等等，仔细观察你会发现，这些例外里的内容和 <code>SBFB</code> 里的内容几乎一摸一样，这就说明他们是和 <code>SBFB</code> 是起到相同作用的，只是设备地址不同，因此，如果 <code>CRS</code> 方法里如果有大量的条件语句，你只要把 (SBF <strong>(X)</strong>,SBFI) 改成 (SBF <strong>(X)</strong>,SBFG) 即可，假如你的 <code>CRS</code> 里只有一个简单的返回 (SBF <strong>(X)</strong>,SBFI)，你则需要创建多个文件，分别尝试不同的 (SBF <strong>(X)</strong>,SBF<strong>G</strong>)。</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="排错"><a href="#排错" class="headerlink" title="排错"></a>排错</h2><h3 id="I-五国"><a href="#I-五国" class="headerlink" title="I. 五国"></a>I. 五国</h3><ul>
+<li><p>由于五国状况复杂这里只提供一个能减少五国概率的方法，如果还是一样，请拍照发群里</p>
+<ol>
+<li><p>打开 VoodooI2C.kext⁩ ▸ 右键 ▸ 显示包内容 ▸ ⁨Contents⁩ ▸ Info.plist (用 Xcode, PlistEdit Pro 或者 VS Code 打开 <strong>千万别用 Clover Configurator</strong>) 这里以 VS Code 为例</p>
+</li>
+<li><p>⌘ + F 搜索 <code>&lt;string&gt;VoodooI2CPCIController&lt;/string&gt;</code></p>
+</li>
+<li><p>往下翻一点找到这些</p>
+<figure class="highlight plist"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,9d60<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,9d61<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,9d62<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,9d63<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,9de8<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,9de9<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,a160<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,a161<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,a162<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,a368<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>pci8086,a369<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在 Windows 里查看你设备使用的是哪一个，删掉其他的，保留你用的</p>
+<p><img alt="a369" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/a369.png" data-index="9" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/a369.png"></p>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="II-学会使用-maclog-提取日志"><a href="#II-学会使用-maclog-提取日志" class="headerlink" title="II. 学会使用 maclog 提取日志"></a>II. 学会使用 maclog 提取日志</h3><p><img alt="maclog" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/maclog.png" data-index="10" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/maclog.png"></p>
+<ul>
+<li><p>下载完后双击解压</p>
+</li>
+<li><p>双击运行，程序会先调用终端，接着会弹出来 <strong>“魔改过的”</strong> 控制台日志窗口</p>
+</li>
+<li><p>在右上角的搜索栏中搜索 <code>Voodoo</code></p>
+<p><img alt="Voodoo" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Voodoo.png" data-index="11" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Voodoo.png"></p>
+</li>
+<li><p>将文本复制粘贴到记事本中</p>
+</li>
+<li><p>再在右上角的搜索栏中搜索 <strong>你的设备名</strong> ，比如 <code>ETPD</code>, <code>TPAD</code>, <code>TPD0</code></p>
+</li>
+<li><p>将文本复制粘贴到记事本中</p>
+</li>
+<li><p>保存好文本文档</p>
+</li>
+</ul>
+<h3 id="III-确保你使用了正确-VoodooI2C-及附属驱动，不能多也不能少"><a href="#III-确保你使用了正确-VoodooI2C-及附属驱动，不能多也不能少" class="headerlink" title="III. 确保你使用了正确 VoodooI2C 及附属驱动，不能多也不能少"></a>III. 确保你使用了正确 <code>VoodooI2C</code> 及附属驱动，不能多也不能少</h3><h3 id="IV-查看-IORegisteryExplorer-里-VoodooI2C-是否正常加载"><a href="#IV-查看-IORegisteryExplorer-里-VoodooI2C-是否正常加载" class="headerlink" title="IV. 查看 IORegisteryExplorer 里 VoodooI2C 是否正常加载"></a>IV. 查看 <code>IORegisteryExplorer</code> 里 <code>VoodooI2C</code> 是否正常加载</h3><ol>
+<li><p>不正常1:</p>
+<p><img alt="LpssI2C" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/LpssI2C.png" data-index="12" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/LpssI2C.png"></p>
+<ul>
+<li><p>解决方案：添加 <code>Clover</code> 里有屏蔽冲突驱动的补丁</p>
+<ol>
+<li><p>Clover Configurator 法</p>
+<p><img alt="Disable-CCG" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Disable.png" data-index="13" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Disable.png"></p>
+</li>
+<li><p>Plist 编辑器法</p>
+<p><img alt="Disable-XCode" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Disable2.png" data-index="14" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Disable2.png"></p>
+</li>
+<li><p>文本法</p>
+<details>
+<summary>（点击此处以展开）</summary>
+
+ <figure class="highlight plist"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>KextsToPatch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">array</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>Comment<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>Disable AppleIntelLpssI2C (credit by Coolstar)    <span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>Disabled<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">false</span>/&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>Find<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">data</span>&gt;</span></span><br><span class="line">            SU9LaXQ=</span><br><span class="line">            <span class="tag">&lt;/<span class="name">data</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>InfoPlistPatch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>Name<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>AppleIntelLpssI2C<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>Replace<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">data</span>&gt;</span></span><br><span class="line">            SU9LaXM=</span><br><span class="line">            <span class="tag">&lt;/<span class="name">data</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>Comment<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>Disable AppleIntelLpssI2CCOntroller (credit by     Coolstar)<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>Disabled<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">false</span>/&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>Find<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">data</span>&gt;</span></span><br><span class="line">            SU9LaXQ=</span><br><span class="line">            <span class="tag">&lt;/<span class="name">data</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>InfoPlistPatch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>Name<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>AppleIntelLpssI2CController<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">key</span>&gt;</span>Replace<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">data</span>&gt;</span></span><br><span class="line">            SU9LaXM=</span><br><span class="line">            <span class="tag">&lt;/<span class="name">data</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">array</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+</details>
+</li>
+</ol>
+</li>
+<li><p>暴力删除法：进入 <code>/System/Library/Extensions/</code> 删除这两个驱动 <strong>AppleIntelLpssI2C</strong> &amp; <strong>AppleIntelLpssI2CController</strong></p>
+</li>
+</ul>
+</li>
+<li><p>不正常2:</p>
+<p><img alt="Wrong2" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Wrong2.png" data-index="15" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Wrong2.png"></p>
+<ul>
+<li>提取日志并进行分析</li>
+</ul>
+<ol>
+<li><p>出现如下字样</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VoodooGPIOXXX:: pin XXX cannot be used as IRQ</span><br></pre></td></tr></table></figure>
+
+<p><strong>解决方案：</strong> 你转换的 GPIO Pin 超出范围了，换另一个</p>
+</li>
+<li><p>出现如下字样</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VoodooI2C:: Failed to load</span><br></pre></td></tr></table></figure>
+
+<p><strong>解决方案：</strong> 确认你使用了正确的驱动及附属驱动并且加上了屏蔽冲突驱动的补丁</p>
+</li>
+<li><p>七代设备出现如下字样，或者 CPU 占用极高</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">VoodooI2CControllerDriver::pci8086,9XXX Warning: Error getting bus config, using defaults where necessary</span><br><span class="line">VoodooI2CControllerDriver::pci8086,9XXX I2C Transaction error details</span><br><span class="line">VoodooI2CControllerDriver::pci8086,9XXX lost arbitration</span><br><span class="line">VoodooI2CControllerDriver::pci8086,9XXX I2C Transaction error: 0x0e001000 - aborting</span><br><span class="line">Request for HID descriptor failed</span><br><span class="line">Request for HID descriptor failed</span><br></pre></td></tr></table></figure>
+
+<p><strong>解决方案：</strong></p>
+<p>使用 SSDT-I2CxConf 修补 I2C 速度常量 SSCN 和 FMCN</p>
+<p>使用方法  </p>
+<pre><code>1. 将 [SSDT-I2CxConf.dsl](https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/SSDT-I2CxConf.dsl) 另存为编译成 SSDT-I2CxConf.aml  
+2. 在 Clover 中添加如下重命名：</code></pre><p><img alt="Rename SSCN FMCN" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Rename-SSCN-FMCN.png" data-index="16" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Rename-SSCN-FMCN.png"></p>
+<p><strong>如果依旧没有效果</strong></p>
+<p>删除上方的改动，在你的DSDT的触摸板设备上方加上这个：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Name (SSCN, Package () &#123; 528, 640, 30 &#125;)</span><br><span class="line">Name (FMCN, Package () &#123; 128, 160, 30 &#125;)</span><br></pre></td></tr></table></figure>
+
+<p><strong>像这样：</strong></p>
+<p><img alt="7Gen" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/7-SSCN-FMCN.png" data-index="17" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/7-SSCN-FMCN.png"></p>
+<p><strong>如果不理想，再尝试这个：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Name (SSCN, Package () &#123; 432, 507, 30 &#125;)</span><br><span class="line">Name (FMCN, Package () &#123; 72, 160, 30 &#125;)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>八代标压设备出现如下字样</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">VoodooI2CControllerNub::pci8086,aXXX SSCN not implemented in ACPI tables</span><br><span class="line">VoodooI2CControllerNub::pci8086,aXXX FMCN not implemented in ACPI tables</span><br><span class="line">VoodooI2CControllerDriver::pci8086,aXXX Warning: Error getting bus config, using defaults where necessary</span><br><span class="line">VoodooI2CControllerDriver::pci8086,a369 I2C Transaction error details</span><br><span class="line">VoodooI2CControllerDriver::pci8086,a369 slave address not acknowledged (7bit mode)</span><br><span class="line">VoodooI2CControllerDriver::pci8086,a369 I2C Transaction error: 0x08800001 - aborting</span><br><span class="line">Request for HID descriptor failed</span><br><span class="line">Could not get HID descriptor</span><br></pre></td></tr></table></figure>
+
+<p><strong>解决方案：</strong></p>
+<p>使用 SSDT-I2CxConf 修补 I2C 速度常量 SSCN 和 FMCN</p>
+<p>使用方法  </p>
+<pre><code>1. 将 [SSDT-I2CxConf.dsl](https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/SSDT-I2CxConf.dsl) 另存为编译成 SSDT-I2CxConf.aml  
+2. 在 Clover 中添加如下重命名：</code></pre><p><img alt="Rename SSCN FMCN" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Rename-SSCN-FMCN.png" data-index="18" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Rename-SSCN-FMCN.png"></p>
+<p><strong>如果依旧没有效果</strong></p>
+<p>删除上方的改动，在你的DSDT的触摸板设备上方加上这个</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">Method (SSCN, 0, NotSerialized)</span><br><span class="line">&#123;</span><br><span class="line">    Return (PKG3 (SSH1, SSL1, SSD1))</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Method (FMCN, 0, NotSerialized)</span><br><span class="line">&#123;</span><br><span class="line">    Name (PKG, Package (0x03)</span><br><span class="line">    &#123;</span><br><span class="line">        0x0101,</span><br><span class="line">        0x012C,</span><br><span class="line">        0x62</span><br><span class="line">    &#125;)</span><br><span class="line">    Return (PKG) /* \_SB_.PCI0.I2C1.FMCN.PKG_ */</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>然后在 <code>Scope (_SB.PCI0.I2C1)</code> 上面加上</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Method (PKG3, 3, Serialized)</span><br><span class="line">&#123;</span><br><span class="line">    Name (PKG, Package (0x03)</span><br><span class="line">    &#123;</span><br><span class="line">        Zero,</span><br><span class="line">        Zero,</span><br><span class="line">        Zero</span><br><span class="line">    &#125;)</span><br><span class="line">    PKG [Zero] = Arg0</span><br><span class="line">    PKG [One] = Arg1</span><br><span class="line">    PKG [0x02] = Arg2</span><br><span class="line">    Return (PKG) /* \PKG3.PKG_ */</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>像这样：</strong></p>
+<p><img alt="8Gen" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/8-SSCN-FMCN.png" data-index="19" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/8-SSCN-FMCN.png"></p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="V-尝试输入密码登陆界面或者不带鼠标开机能不能使用触摸板"><a href="#V-尝试输入密码登陆界面或者不带鼠标开机能不能使用触摸板" class="headerlink" title="V. 尝试输入密码登陆界面或者不带鼠标开机能不能使用触摸板"></a>V. 尝试<strong>输入密码登陆界面</strong>或者<strong>不带鼠标开机</strong>能不能使用触摸板</h3><ul>
+<li><p>如果可以，请进入 偏好设置 ▸ 辅助功能 ▸ 鼠标与触控板 ▸ <strong>取消勾选</strong> <code>有鼠标或无线触控板时忽略内建触摸板</code></p>
+<p><img alt="Ignore" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Ignore.png" data-index="20" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Ignore.png"></p>
+</li>
+</ul>
+<h3 id="VI-驱动放进-Library-Extensions，然后重建缓存"><a href="#VI-驱动放进-Library-Extensions，然后重建缓存" class="headerlink" title="VI. 驱动放进 Library/Extensions，然后重建缓存"></a>VI. 驱动放进 <code>Library/Extensions</code>，然后重建缓存</h3><p>   <img alt="L/E" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/L-E.png" data-index="21" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/L-E.png"></p>
+<p>   然后打开终端，输入</p>
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo kextcache -i/</span><br></pre></td></tr></table></figure>
+
+<h3 id="VII-尝试睡眠唤醒"><a href="#VII-尝试睡眠唤醒" class="headerlink" title="VII. 尝试睡眠唤醒"></a>VII. 尝试睡眠唤醒</h3><h3 id="如果还是不行，请提交一下内容"><a href="#如果还是不行，请提交一下内容" class="headerlink" title="如果还是不行，请提交一下内容"></a>如果还是不行，请提交一下内容</h3><ul>
+<li>原始 DSDT (Clover F4 的完整 ACPI 表) 一份</li>
+<li>针对触摸板修改过的 DSDT 一份</li>
+<li>装了 VoodooI2C 时的 IOREG 一份（文件 -&gt; 另存为）</li>
+<li>maclog 提取的日志一份</li>
+<li>一份详细的描述<ul>
+<li>包含：<ol>
+<li>笔记本机型</li>
+<li>触摸板型号</li>
+<li>触摸板 BIOS 设备地址</li>
+<li>出厂 Windows 版本和当前 macOS 版本</li>
+<li>使用的 VoodooI2C 版本以及使用的附属驱动名称</li>
+<li>处理器型号</li>
+<li>问题的详细描述</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="最后，祝你早日见到这个感人的界面，用上丝滑的触摸板！"><a href="#最后，祝你早日见到这个感人的界面，用上丝滑的触摸板！" class="headerlink" title="最后，祝你早日见到这个感人的界面，用上丝滑的触摸板！"></a>最后，祝你早日见到这个感人的界面，用上丝滑的触摸板！</h3><p>   <img alt="Success1" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Success.png" data-index="22" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Success.png"></p>
+<p>   <img alt="Success2" class="post-img b-lazy" data-img="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Success2.png" data-index="23" data-src="https://raw.githubusercontent.com/williambj1/VoodooI2C-PreRelease/master/IMG/Success2.png"></p>
+<h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2><ul>
+<li><a href="https://github.com/penghubingzhou" target="_blank" rel="noopener">Startpenghubingzhou</a></li>
+<li><a href="https://voodooi2c.github.io/#Credits%20and%20Acknowledgments/Credits%20and%20Acknowledgments" target="_blank" rel="noopener">VoodooI2C 开发组</a></li>
+</ul>
+
+                </article>
+                <ul class="tags-postTags">
+                    
+                    <li>
+                        <a href="/tags/hackintosh/" rel="tag"># hackintosh</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+    <nav id="gobottom" class="pagination">
+        
+        <a class="prev-post" title="docker安装使用" href="/2019/docker-install-use/">
+            ← docker安装使用
+        </a>
+        
+        <span class="prev-next-post">·</span>
+        
+        <a class="next-post" title="mipad2 小米平板2 win10 屏蔽三个按键" href="/2019/mipad2-win10-block-keys/">
+            mipad2 小米平板2 win10 屏蔽三个按键 →
+        </a>
+        
+    </nav>
+
+    
+    <div id="gitment-container"></div>
+    <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+    <script src="https://billts.site/js/gitment.js"></script>
+    <script>
+        var gitment = new Gitment({
+        // id: decodeURI(window.location.pathname),
+        owner: 'jinmu333',
+        repo: 'blog_gitment',
+        oauth: {
+            client_id: '9f30df6c27d682bca494',
+            client_secret: 'b1d88f19b7e504499594a55f9c5074fbc8a35fa5',
+        },
+        })
+        gitment.render('gitment-container')
+    </script>
+</div>
+
+<div class="toc-bar">
+    <div class="toc-btn-bar">
+        <a href="#site-main" class="toc-btn">
+            <svg viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M793.024 710.272a32 32 0 1 0 45.952-44.544l-310.304-320a32 32 0 0 0-46.4 0.48l-297.696 320a32 32 0 0 0 46.848 43.584l274.752-295.328 286.848 295.808z"/></svg>
+        </a>
+        <div class="toc-btn toc-switch">
+            <svg class="toc-open" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M779.776 480h-387.2a32 32 0 0 0 0 64h387.2a32 32 0 0 0 0-64M779.776 672h-387.2a32 32 0 0 0 0 64h387.2a32 32 0 0 0 0-64M256 288a32 32 0 1 0 0 64 32 32 0 0 0 0-64M392.576 352h387.2a32 32 0 0 0 0-64h-387.2a32 32 0 0 0 0 64M256 480a32 32 0 1 0 0 64 32 32 0 0 0 0-64M256 672a32 32 0 1 0 0 64 32 32 0 0 0 0-64"/></svg>
+            <svg class="toc-close hide" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M512 960c-247.039484 0-448-200.960516-448-448S264.960516 64 512 64 960 264.960516 960 512 759.039484 960 512 960zM512 128.287273c-211.584464 0-383.712727 172.128262-383.712727 383.712727 0 211.551781 172.128262 383.712727 383.712727 383.712727 211.551781 0 383.712727-172.159226 383.712727-383.712727C895.712727 300.415536 723.551781 128.287273 512 128.287273z"/><path d="M557.05545 513.376159l138.367639-136.864185c12.576374-12.416396 12.672705-32.671738 0.25631-45.248112s-32.704421-12.672705-45.248112-0.25631l-138.560301 137.024163-136.447897-136.864185c-12.512727-12.512727-32.735385-12.576374-45.248112-0.063647-12.512727 12.480043-12.54369 32.735385-0.063647 45.248112l136.255235 136.671523-137.376804 135.904314c-12.576374 12.447359-12.672705 32.671738-0.25631 45.248112 6.271845 6.335493 14.496116 9.504099 22.751351 9.504099 8.12794 0 16.25588-3.103239 22.496761-9.247789l137.567746-136.064292 138.687596 139.136568c6.240882 6.271845 14.432469 9.407768 22.65674 9.407768 8.191587 0 16.352211-3.135923 22.591372-9.34412 12.512727-12.480043 12.54369-32.704421 0.063647-45.248112L557.05545 513.376159z"/></svg>
+        </div>
+        <a href="#gobottom" class="toc-btn">
+            <svg viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M231.424 346.208a32 32 0 0 0-46.848 43.584l297.696 320a32 32 0 0 0 46.4 0.48l310.304-320a32 32 0 1 0-45.952-44.544l-286.848 295.808-274.752-295.36z"/></svg>
+        </a>
+    </div>
+    <div class="toc-main">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#原文"><span class="toc-text">原文</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#触摸设备-DSDT-修补补充"><span class="toc-text">触摸设备 DSDT 修补补充</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#致那些无脑放完驱动就能用了的小小小白"><span class="toc-text">致那些无脑放完驱动就能用了的小小小白</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#致刚接触触摸板的小白"><span class="toc-text">致刚接触触摸板的小白</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#F-amp-Q"><span class="toc-text">F&amp;Q</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#触摸板专有词汇集合"><span class="toc-text">触摸板专有词汇集合</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#触摸板必备软件集合-均在群文件中"><span class="toc-text">触摸板必备软件集合(均在群文件中)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DSDT-触摸板部分详解"><span class="toc-text">DSDT 触摸板部分详解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#排错"><span class="toc-text">排错</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#I-五国"><span class="toc-text">I. 五国</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#II-学会使用-maclog-提取日志"><span class="toc-text">II. 学会使用 maclog 提取日志</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#III-确保你使用了正确-VoodooI2C-及附属驱动，不能多也不能少"><span class="toc-text">III. 确保你使用了正确 VoodooI2C 及附属驱动，不能多也不能少</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IV-查看-IORegisteryExplorer-里-VoodooI2C-是否正常加载"><span class="toc-text">IV. 查看 IORegisteryExplorer 里 VoodooI2C 是否正常加载</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#V-尝试输入密码登陆界面或者不带鼠标开机能不能使用触摸板"><span class="toc-text">V. 尝试输入密码登陆界面或者不带鼠标开机能不能使用触摸板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VI-驱动放进-Library-Extensions，然后重建缓存"><span class="toc-text">VI. 驱动放进 Library/Extensions，然后重建缓存</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VII-尝试睡眠唤醒"><span class="toc-text">VII. 尝试睡眠唤醒</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#如果还是不行，请提交一下内容"><span class="toc-text">如果还是不行，请提交一下内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#最后，祝你早日见到这个感人的界面，用上丝滑的触摸板！"><span class="toc-text">最后，祝你早日见到这个感人的界面，用上丝滑的触摸板！</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#鸣谢"><span class="toc-text">鸣谢</span></a></li></ol>
+    </div>
+</div>
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+	</div>
+	
+
+
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+            
+
+<article class="read-next-card" style="background-image: url(/imgs/header_image.jpg)">
+  <header class="read-next-card-header">
+    <small class="read-next-card-header-sitetitle">&mdash; Dreamhunter Blog &mdash;</small>
+    <h3 class="read-next-card-header-title">最新文章</h3>
+  </header>
+  <div class="read-next-divider">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+      <path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/>
+    </svg>
+  </div>
+  <div class="read-next-card-content">
+    <ul>
+      
+      
+      
+      <li>
+        <a href="/2020/what’s-new-in-python3-8/">What’s New In Python 3.8</a>
+      </li>
+      
+      
+      
+      <li>
+        <a href="/2020/wsl-linux-custom-install/">wsl linux custom install</a>
+      </li>
+      
+      
+      
+      <li>
+        <a href="/2020/python-bitwise-operation/">python 位运算</a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+  <footer class="read-next-card-footer">
+    <a href="/archives">  MORE  → </a>
+  </footer>
+</article>
+
+            
+            
+            
+
+<article class="read-next-card" style="background-image: url(/imgs/header_image.jpg)">
+    <header class="read-next-card-header tagcloud-card">
+        <h3 class="read-next-card-header-title">分类</h3>
+    </header>
+    <div class="read-next-card-content">
+        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/docker/">docker</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/hackintosh/">hackintosh</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/odoo/">odoo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/python/">python</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/sql/">sql</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/wsl/">wsl</a></li></ul>
+    </div>
+</article>
+
+
+            
+            
+            
+
+<article class="read-next-card" style="background-image: url(/imgs/header_image.jpg)">
+	<header class="read-next-card-header tagcloud-card">
+		<h3 class="read-next-card-header-title">标签云</h3>
+	</header>
+	<div class="read-next-card-content-ext">
+		<a href="/tags/SQL/" style="font-size: 15.67px;">SQL</a> <a href="/tags/api/" style="font-size: 15.67px;">api</a> <a href="/tags/code-server/" style="font-size: 15.67px;">code-server</a> <a href="/tags/context/" style="font-size: 14px;">context</a> <a href="/tags/docker/" style="font-size: 22.33px;">docker</a> <a href="/tags/git/" style="font-size: 14px;">git</a> <a href="/tags/hackintosh/" style="font-size: 20.67px;">hackintosh</a> <a href="/tags/hexo/" style="font-size: 15.67px;">hexo</a> <a href="/tags/linux/" style="font-size: 19px;">linux</a> <a href="/tags/mail/" style="font-size: 14px;">mail</a> <a href="/tags/many2many/" style="font-size: 17.33px;">many2many</a> <a href="/tags/many2one/" style="font-size: 14px;">many2one</a> <a href="/tags/mipad2/" style="font-size: 14px;">mipad2</a> <a href="/tags/odoo/" style="font-size: 24px;">odoo</a> <a href="/tags/onchange/" style="font-size: 14px;">onchange</a> <a href="/tags/one2many/" style="font-size: 14px;">one2many</a> <a href="/tags/python/" style="font-size: 22.33px;">python</a> <a href="/tags/sql/" style="font-size: 14px;">sql</a> <a href="/tags/ssr/" style="font-size: 14px;">ssr</a> <a href="/tags/wsl/" style="font-size: 17.33px;">wsl</a> <a href="/tags/xampp/" style="font-size: 14px;">xampp</a> <a href="/tags/酸酸乳/" style="font-size: 14px;">酸酸乳</a>
+	</div>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+	
+
+
+
+
+<div id="search" class="search-overlay">
+    <div class="search-form">
+        
+        <div class="search-overlay-logo">
+        	<img src="/imgs/favicon.ico" alt="Dreamhunter Blog">
+        </div>
+        
+        <input id="local-search-input" class="search-input" type="text" name="search" placeholder="搜索 ...">
+        <a class="search-overlay-close" href="#"></a>
+    </div>
+    <div id="local-search-result"></div>
+</div>
+
+<footer class="site-footer outer">
+	<div class="site-footer-content inner">
+		<div class="copyright">
+			<a href="/" title="Dreamhunter Blog">Dreamhunter Blog &copy; 2020</a>
+			
+				
+    		
+		</div>
+		<nav class="site-footer-nav">
+			
+			<a href="https://hexo.io" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+			<a href="https://github.com/xzhih/hexo-theme-casper" title="Casper" target="_blank" rel="noopener">Casper</a>
+		</nav>
+	</div>
+</footer>
+	
+
+<script>
+    "serviceWorker"in navigator&&window.addEventListener("load",function(){
+        navigator.serviceWorker.register("/sw.js")
+            .then(function(e){
+                console.log("ServiceWorker registration successful with scope: ",e.scope)
+            })
+            .catch(function(e){
+                console.log("ServiceWorker registration failed: ",e)
+            })
+    });
+</script>
+
+
+<script id="scriptLoad" src="/js/allinone.min.js" async></script>
+
+
+<script>
+    document.getElementById('scriptLoad').addEventListener('load', function () {
+        
+        
+            var bLazy = new Blazy();
+        
+
+        
+        
+
+        
+        
+        
+            searchFuncSW("/");
+        
+        
+    })
+</script>
+
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded',function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    });
+</script>
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":false},"log":false});</script></body>
+</html>

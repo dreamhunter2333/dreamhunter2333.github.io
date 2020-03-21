@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="preconnect" href="//www.googletagmanager.com">
+	<link rel="preconnect" href="//zz.bdstatic.com">
+	<link rel="preconnect" href="//sp0.baidu.com">
+	<link rel="preconnect" href="//www.google-analytics.com">
+	<link rel="preconnect" href="//cdn1.lncld.net">
+	<link rel="preconnect" href="//unpkg.com">
+	<link rel="preconnect" href="//app-router.leancloud.cn">
+	<link rel="preconnect" href="//9qpuwspm.api.lncld.net">
+	<link rel="preconnect" href="//gravatar.loli.net">
+
+	<title>在windows的linux子系统中运行Odoo12 | Dreamhunter Blog</title>
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+	<meta name="generator" content="hexo">
+	<meta name="author" content="dreamhunter">
+	<meta name="description" content>
+
+	
+	<meta name="keywords" content="hexo, casper, ghost, theme">
+	
+
+	
+	<link rel="shortcut icon" href="/imgs/favicon.ico">
+	<link rel="apple-touch-icon" href="/imgs/favicon.ico">
+	
+
+	
+
+	
+
+	
+
+	<meta property="og:site_name" content="Dreamhunter Blog">
+	<meta property="og:type" content="blog">
+	<meta property="og:title" content="在windows的linux子系统中运行Odoo12 | Dreamhunter Blog">
+	<meta property="og:description" content>
+	<meta property="og:url" content="https://jcstaff.club/odoo/Run-Odoo-in-Windows-WSL.html">
+
+	
+
+	
+	
+	<link rel="stylesheet" href="/css/allinonecss.min.css">
+
+	
+	
+	
+</head>
+<body class="tag-template">
+	<div class="site-wrapper">
+		
+
+
+
+
+<header class="site-header outer " style="background-image: url(/imgs/header_image.jpg)">
+    <div class="inner">
+        
+        
+        
+<nav class="site-nav"> 
+    <div class="site-nav-left">
+        <ul class="nav">
+            <li>
+                
+                <a href="/" title="Home">HOME</a>
+                
+            </li>
+            
+            
+            <li>
+                <a href="/archives" title="ARCHIVES">ARCHIVES</a>
+            </li>
+            
+            <li>
+                <a href="/about" title="ABOUT">ABOUT</a>
+            </li>
+            
+            
+        </ul> 
+    </div>
+    
+    <div class="search-button-area">
+        <a href="#search" class="search-button">Search ...</a>
+    </div>
+     
+    <div class="site-nav-right">
+        
+        <a href="#search" class="search-button">Search ...</a>
+         
+        
+<div class="social-links">
+    
+    
+    <a class="social-link" title="github" href="https://github.com/jinmu333" target="_blank" rel="noopener">
+        <svg viewbox="0 0 1049 1024" xmlns="http://www.w3.org/2000/svg"><path d="M524.979332 0C234.676191 0 0 234.676191 0 524.979332c0 232.068678 150.366597 428.501342 358.967656 498.035028 26.075132 5.215026 35.636014-11.299224 35.636014-25.205961 0-12.168395-0.869171-53.888607-0.869171-97.347161-146.020741 31.290159-176.441729-62.580318-176.441729-62.580318-23.467619-60.841976-58.234462-76.487055-58.234463-76.487055-47.804409-32.15933 3.476684-32.15933 3.476685-32.15933 53.019436 3.476684 80.83291 53.888607 80.83291 53.888607 46.935238 79.963739 122.553122 57.365291 152.97411 43.458554 4.345855-33.897672 18.252593-57.365291 33.028501-70.402857-116.468925-12.168395-239.022047-57.365291-239.022047-259.012982 0-57.365291 20.860106-104.300529 53.888607-140.805715-5.215026-13.037566-23.467619-66.926173 5.215027-139.067372 0 0 44.327725-13.906737 144.282399 53.888607 41.720212-11.299224 86.917108-17.383422 131.244833-17.383422s89.524621 6.084198 131.244833 17.383422C756.178839 203.386032 800.506564 217.29277 800.506564 217.29277c28.682646 72.1412 10.430053 126.029806 5.215026 139.067372 33.897672 36.505185 53.888607 83.440424 53.888607 140.805715 0 201.64769-122.553122 245.975415-239.891218 259.012982 19.121764 16.514251 35.636014 47.804409 35.636015 97.347161 0 70.402857-0.869171 126.898978-0.869172 144.282399 0 13.906737 9.560882 30.420988 35.636015 25.205961 208.601059-69.533686 358.967656-265.96635 358.967655-498.035028C1049.958663 234.676191 814.413301 0 524.979332 0z"/></svg>
+    </a>
+    
+    
+    
+    
+    
+    <a class="social-link" title="bilibili" href="https://bilibili.com" target="_blank" rel="noopener">
+        <svg viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M360.896 183.968l-90.912-88.096s-14.208-17.472 9.824-37.248c24.16-19.648 25.376-10.912 33.504-5.472s135.2 130.816 135.2 130.816zm301.952 3.264l90.912-88.096s14.208-17.472-9.824-37.248c-24.032-19.648-25.376-10.912-33.504-5.472s-135.2 130.816-135.2 130.816zM1004 350.336c-3.264-137.984-123.168-164.192-123.168-164.192s-614.336-4.96-742.496 0C10.176 222.304 20 350.336 20 350.336s1.696 274.272-.128 413.12c13.824 138.848 120.864 160.928 120.864 160.928s42.72.864 73.92.864c3.264 8.992 5.696 52.544 54.24 52.544 48.416 0 54.24-52.544 54.24-52.544s354.88-1.696 384.352-1.696c1.696 14.816 8.992 54.976 57.536 54.24 48.416-.864 51.712-57.536 51.712-57.536s16.384-1.696 65.664 0C997.344 898.88 1004 764.192 1004 764.192s-1.568-275.872 0-413.856zm-98.912 439.232c0 21.728-17.248 39.456-38.464 39.456H167.2c-21.248 0-38.464-17.6-38.464-39.456V326.336c0-21.728 17.248-39.456 38.464-39.456h699.424c21.248 0 38.464 17.6 38.464 39.456zM202.4 457.152l205.344-39.456 15.52 77.184-203.648 39.456zm638.976 0l-205.344-39.456-15.648 77.184 203.776 39.456zm-418.08 191.392s45.152 81.312 95.264-26.336c48.416 105.088 101.824 27.904 101.824 27.904l30.336 19.776s-56.672 91.136-131.424 22.208c-63.232 68.928-129.728-21.952-129.728-21.952z"/></svg>
+    </a>
+    
+    
+</div>
+    </div>
+</nav>
+        
+        <div class="site-header-content">
+            
+            <h1 class="site-title">
+                在windows的linux子系统中运行Odoo12
+            </h1>
+            <h2 class="site-description"></h2>
+        </div>
+        
+        
+    </div>
+</header>
+
+
+
+<div id="site-main" class="site-main outer" role="main">
+	<div class="inner">
+		<div class="post-feed">
+			<article class="post-card post no-image custom-page">
+				<article class="post-full no-image">
+					<section class="post-full-content page-full-content">
+						<div id="photoswipe" class="markdown-body">
+							<h1 id="在windows的linux子系统中运行Odoo12"><a href="#在windows的linux子系统中运行Odoo12" class="headerlink" title="在windows的linux子系统中运行Odoo12"></a>在windows的linux子系统中运行Odoo12</h1><h2 id="首先肯定是安装linux子系统"><a href="#首先肯定是安装linux子系统" class="headerlink" title="首先肯定是安装linux子系统"></a>首先肯定是安装linux子系统</h2><blockquote>
+<p>首先去程序与功能，打开<code>linux</code>子系统<br><img alt class="post-img b-lazy" data-img="/imgs/wsl/wsl1.png" data-index="0" data-src="/imgs/wsl/wsl1.png"></p>
+</blockquote>
+<blockquote>
+<p>可能会要求重启，之后打开微软商店，搜索<code>linux</code><br>安装一个linux发行版，这里我选了<code>Ubuntu18</code><br><img alt class="post-img b-lazy" data-img="/imgs/wsl/wsl2.png" data-index="1" data-src="/imgs/wsl/wsl2.png"></p>
+</blockquote>
+<blockquote>
+<p>漫长等待之后，在弹出的终端界面输入用户名密码<br>安装完成</p>
+</blockquote>
+<h2 id="Ubuntu的系统配置"><a href="#Ubuntu的系统配置" class="headerlink" title="Ubuntu的系统配置"></a>Ubuntu的系统配置</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update &amp;&amp; sudo apt upgrade</span><br><span class="line"> <span class="comment"># 安装 postgresql</span></span><br><span class="line">sudo apt install postgresql -y</span><br><span class="line">sudo su -c <span class="string">"createuser -s <span class="variable">$USER</span>"</span> postgres</span><br><span class="line"><span class="comment"># 开启数据库</span></span><br><span class="line">sudo service postgresql start</span><br><span class="line"><span class="comment"># 关闭数据库</span></span><br><span class="line">sudo service postgresql stop</span><br><span class="line"><span class="comment"># 安装依赖</span></span><br><span class="line">sudo apt update &amp;&amp; sudo apt upgrade</span><br><span class="line">sudo apt install git -y</span><br><span class="line">sudo apt install python3-dev python3-pip -y</span><br><span class="line">sudo apt install build-essential libxslt-dev libzip-dev libldap2-dev libsasl2-dev libssl-dev -y</span><br></pre></td></tr></table></figure>
+
+<h2 id="下载社区版odoo12源码"><a href="#下载社区版odoo12源码" class="headerlink" title="下载社区版odoo12源码"></a>下载社区版odoo12源码</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># windows 磁盘在linux子系统中映射在/mnt/下</span></span><br><span class="line"><span class="comment"># 这里将odoo clone到f盘odoo12下</span></span><br><span class="line"><span class="built_in">cd</span> /mnt/f/odoo12</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/odoo/odoo.git</span><br><span class="line"><span class="comment"># 使用清华源快速安装依赖</span></span><br><span class="line">sudo pip3 install -r odoo/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line">pip3 install num2words phonenumbers psycopg2-binary watchdog xlwt -i https://pypi.tuna.tsinghua.edu.cn/simple</span><br></pre></td></tr></table></figure>
+
+<h2 id="启动odoo12"><a href="#启动odoo12" class="headerlink" title="启动odoo12"></a>启动odoo12</h2><h3 id="启动测试"><a href="#启动测试" class="headerlink" title="启动测试"></a>启动测试</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 就可以启动默认的odoo12</span></span><br><span class="line">odoo/odoo-bin</span><br></pre></td></tr></table></figure>
+
+<h3 id="数据库配置"><a href="#数据库配置" class="headerlink" title="数据库配置"></a>数据库配置</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 切换到数据库超级用户</span></span><br><span class="line">sudo -i -u postgres</span><br><span class="line"><span class="comment"># 进入数据库</span></span><br><span class="line">psql</span><br><span class="line"><span class="comment"># 创建用户</span></span><br><span class="line">CREATE ROLE odoo WITH SUPERUSER LOGIN PASSWORD <span class="string">'odoo'</span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="创建conf参数文件"><a href="#创建conf参数文件" class="headerlink" title="创建conf参数文件"></a>创建conf参数文件</h3><blockquote>
+<p>在<code>odoo12</code>目录下创建<code>odoo.conf</code></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[options]</span><br><span class="line">admin_passwd = admin</span><br><span class="line">db_host = localhost</span><br><span class="line">db_port = 5432</span><br><span class="line">db_user = odoo</span><br><span class="line">db_password = odoo</span><br><span class="line">addons_path = /mnt/f/odoo12/odoo/addons</span><br></pre></td></tr></table></figure>
+
+<h3 id="带参数启动odoo-bin"><a href="#带参数启动odoo-bin" class="headerlink" title="带参数启动odoo-bin"></a>带参数启动odoo-bin</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -c xxx 配置文件</span></span><br><span class="line"><span class="comment"># -d xxx 新建数据库</span></span><br><span class="line"><span class="comment"># -i 安装模块</span></span><br><span class="line"><span class="comment"># -–stop-after-init 在执行结束后停止服务</span></span><br><span class="line">odoo/odoo-bin -c odoo.conf -d demo -i base -–stop-after-init</span><br><span class="line"><span class="comment"># 配置文件启动</span></span><br><span class="line">odoo/odoo-bin -c odoo.conf</span><br></pre></td></tr></table></figure>
+
+<h2 id="在pycharm中调试代码"><a href="#在pycharm中调试代码" class="headerlink" title="在pycharm中调试代码"></a>在pycharm中调试代码</h2><blockquote>
+<p>之前的<code>odoo12</code>文件夹就是我们的工程目录<br>使用pycharm专业版打开，添加如下的解释器<br><img alt class="post-img b-lazy" data-img="/imgs/wsl/wsl3.png" data-index="2" data-src="/imgs/wsl/wsl3.png"><br>会自动把工程路径按照 <code>F:/ to /mnt/f/</code> 这种关系映射<br>然后配置odoo-bin的启动参数<br><img alt class="post-img b-lazy" data-img="/imgs/wsl/wsl4.png" data-index="3" data-src="/imgs/wsl/wsl4.png"></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 若此前跑过odoo-bin命令 需要终止</span></span><br><span class="line">ps -ef</span><br><span class="line"><span class="comment"># 找到需要终止的任务的PID，比如2333</span></span><br><span class="line"><span class="built_in">kill</span> 2333</span><br><span class="line"><span class="comment"># 杀死所有python3</span></span><br><span class="line">killall python3</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>然后就可以本机调试了<br>子系统的网络地址就是本机，不用像<code>docker</code>一样配置</p>
+</blockquote>
+
+						</div>
+					</section>
+				</article>
+			</article>
+		</div>
+	</div>
+</div>
+
+
+	</div>
+	
+
+
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+            
+
+<article class="read-next-card" style="background-image: url(/imgs/header_image.jpg)">
+  <header class="read-next-card-header">
+    <small class="read-next-card-header-sitetitle">&mdash; Dreamhunter Blog &mdash;</small>
+    <h3 class="read-next-card-header-title">最新文章</h3>
+  </header>
+  <div class="read-next-divider">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+      <path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/>
+    </svg>
+  </div>
+  <div class="read-next-card-content">
+    <ul>
+      
+      
+      
+      <li>
+        <a href="/2019/Odoo-class-Many2many/">Odoo class Many2many</a>
+      </li>
+      
+      
+      
+      <li>
+        <a href="/2019/Odoo-ir-actions-server/">Odoo ir.actions.server</a>
+      </li>
+      
+      
+      
+      <li>
+        <a href="/2019/Windows10-using-vscode-run-odoo12-in-wsl/">Windows10使用vscode利用linux子系统运行odoo12</a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+  <footer class="read-next-card-footer">
+    <a href="/archives">  MORE  → </a>
+  </footer>
+</article>
+
+            
+            
+            
+
+<article class="read-next-card" style="background-image: url(/imgs/header_image.jpg)">
+    <header class="read-next-card-header tagcloud-card">
+        <h3 class="read-next-card-header-title">分类</h3>
+    </header>
+    <div class="read-next-card-content">
+        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/docker/">docker</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/hackintosh/">hackintosh</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/odoo/">odoo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/python/">python</a></li></ul>
+    </div>
+</article>
+
+
+            
+            
+            
+
+<article class="read-next-card" style="background-image: url(/imgs/header_image.jpg)">
+	<header class="read-next-card-header tagcloud-card">
+		<h3 class="read-next-card-header-title">标签云</h3>
+	</header>
+	<div class="read-next-card-content-ext">
+		<a href="/tags/SQL/" style="font-size: 16.5px;">SQL</a> <a href="/tags/api/" style="font-size: 14px;">api</a> <a href="/tags/docker/" style="font-size: 16.5px;">docker</a> <a href="/tags/hackintosh/" style="font-size: 21.5px;">hackintosh</a> <a href="/tags/hexo/" style="font-size: 16.5px;">hexo</a> <a href="/tags/linux/" style="font-size: 16.5px;">linux</a> <a href="/tags/mail/" style="font-size: 14px;">mail</a> <a href="/tags/many2many/" style="font-size: 19px;">many2many</a> <a href="/tags/many2one/" style="font-size: 14px;">many2one</a> <a href="/tags/mipad2/" style="font-size: 14px;">mipad2</a> <a href="/tags/odoo/" style="font-size: 24px;">odoo</a> <a href="/tags/one2many/" style="font-size: 14px;">one2many</a> <a href="/tags/python/" style="font-size: 14px;">python</a> <a href="/tags/ssr/" style="font-size: 14px;">ssr</a> <a href="/tags/wsl/" style="font-size: 16.5px;">wsl</a> <a href="/tags/xampp/" style="font-size: 14px;">xampp</a> <a href="/tags/酸酸乳/" style="font-size: 14px;">酸酸乳</a>
+	</div>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+	
+
+
+
+
+<div id="search" class="search-overlay">
+    <div class="search-form">
+        
+        <div class="search-overlay-logo">
+        	<img src="/imgs/favicon.ico" alt="Dreamhunter Blog">
+        </div>
+        
+        <input id="local-search-input" class="search-input" type="text" name="search" placeholder="搜索 ...">
+        <a class="search-overlay-close" href="#"></a>
+    </div>
+    <div id="local-search-result"></div>
+</div>
+
+<footer class="site-footer outer">
+	<div class="site-footer-content inner">
+		<div class="copyright">
+			<a href="/" title="Dreamhunter Blog">Dreamhunter Blog &copy; 2019</a>
+			
+		</div>
+		<nav class="site-footer-nav">
+			
+			<a href="https://hexo.io" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+			<a href="https://github.com/xzhih/hexo-theme-casper" title="Casper" target="_blank" rel="noopener">Casper</a>
+		</nav>
+	</div>
+</footer>
+	
+
+
+<script>
+    if(window.navigator && navigator.serviceWorker) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            for(let registration of registrations) {
+                registration.unregister()
+            }
+        })
+    }
+</script>
+
+
+<script id="scriptLoad" src="/js/allinone.min.js" async></script>
+
+
+
+<script>
+    document.getElementById('scriptLoad').addEventListener('load', function () {
+        var bLazy = new Blazy()
+    })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    document.getElementById('scriptLoad').addEventListener('load', function(){
+        searchFunc("/")
+    });
+</script>
+
+
+
+
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":false},"log":false});</script></body>
+</html>

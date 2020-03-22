@@ -26,4 +26,6 @@ brew cask install ezip
 brew cask install keka
 brew cask install snipaste
 brew cask install postman
+brew cask install pycharm-ce
+brew cask install intellij-idea-ce
 ```

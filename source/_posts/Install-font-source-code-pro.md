@@ -1,9 +1,12 @@
 ---
 title: 安装 source-code-pro 字体
 date: 2020-03-21 23:10:44
+cover_img: /imgs/source-code-pro/source-code-pro.png
 categories:
 tags:
 ---
+
+![source-code-pro](/imgs/source-code-pro/source-code-pro.png)
 
 ## mac 安装 source-code-pro 字体
 

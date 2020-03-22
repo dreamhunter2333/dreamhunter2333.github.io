@@ -160,6 +160,61 @@
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
+					<a class="post-card-content-link" title="Odoo视图xml invisible属性" href="/2019/Odoo-xml-invisible/">
+						<header class="post-card-header">
+							<span class="post-card-tags">
+								
+								
+								odoo
+								| 
+								
+								<time datetime="2019-08-19T14:32:00.000Z">
+									2019-08-19
+								</time>
+							</span>
+							<h2 class="post-card-title">Odoo视图xml invisible属性</h2>
+						</header>
+						<div class="post-card-excerpt">
+							<p>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								Odoo视图invisible属性xml标签的属性
+string：字段显示名称
+password：设置本字段以*号显示
+nolabel：是否显示string定义
+								...
+							</p>
+						</div>
+					</a>
+					<footer class="post-card-meta">
+						<div class="author-list">
+							<div class="author-list-item">
+								<div class="author-name-tooltip">dreamhunter</div>
+								
+								<a href="/about" class="static-avatar">
+									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
+								</a>
+								
+							</div>
+						</div>
+						<span class="reading-time">
+							1
+							min read
+						</span>
+					</footer>
+				</div>
+			</article>
+			
+			<article class="post-card post  no-image ">
+				
+				<div class="post-card-content">
 					<a class="post-card-content-link" title="Odoo @api.* 装饰器" href="/2019/Odoo-api-decorators/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
@@ -183,13 +238,13 @@
 								
 								
 								
-								
-								
 								Odoo @api.* 装饰器@api.one
 one的用法主要用于self为单一记录的情况，self仅代表当前正在操作的记录。
 
 @api.multi
-mul
+multi则指self是多个记录的合集。因此，常使用for—in语句遍历self。multi通常用于：在tree视图中点选多条记录，然后执行某方法，那么那个方法必须用@api.multi修饰，而参数中的self则代表选中的多条记录。如果仅仅是在form视图下操作，那么self中通常只有当前正在操作的记录。
+
+@api.mod
 								...
 							</p>
 						</div>
@@ -794,69 +849,6 @@ _config.yml 配置12345678910111213141516live2d:  enable: true  scriptFrom: loca
 				</div>
 			</article>
 			
-			<article class="post-card post  no-image ">
-				
-				<div class="post-card-content">
-					<a class="post-card-content-link" title="hotpatch 驱动 Fn 亮度快捷键" href="/2019/hotpatch-fn-brightness/">
-						<header class="post-card-header">
-							<span class="post-card-tags">
-								
-								
-								hackintosh
-								| 
-								
-								<time datetime="2019-04-02T12:55:26.000Z">
-									2019-04-02
-								</time>
-							</span>
-							<h2 class="post-card-title">hotpatch 驱动 Fn 亮度快捷键</h2>
-						</header>
-						<div class="post-card-excerpt">
-							<p>
-								
-								
-								
-								
-								
-								
-								
-								针对 intel 核显为什么要驱动 Fn 亮度快捷键
-fn+功能键直接调节亮度
-
-hotpatch Fn 样例
-我的 hotpatch Fn 样例
-SSDT-Fn.dsl
-
-DSDT/SSDT 如何提取 反编译 请看这篇
-DSDT提取
-
-在 DSDT 中查找亮度调节方法
-类似下面的方法含有这两句的Notify (^^^GFX0.DD1F, 0x87)Notify (^^^GFX0.DD1F, 0x86)
-
-12345678910111213Method (_Q14, 0, N
-								...
-							</p>
-						</div>
-					</a>
-					<footer class="post-card-meta">
-						<div class="author-list">
-							<div class="author-list-item">
-								<div class="author-name-tooltip">dreamhunter</div>
-								
-								<a href="/about" class="static-avatar">
-									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
-								</a>
-								
-							</div>
-						</div>
-						<span class="reading-time">
-							3
-							min read
-						</span>
-					</footer>
-				</div>
-			</article>
-			
 		</div>
 	</div>
 </div>
@@ -901,6 +893,12 @@ DSDT提取
       
       
       <li>
+        <a href="/2020/Brew-cask-install-software/">Brew cask install software</a>
+      </li>
+      
+      
+      
+      <li>
         <a href="/2020/Install-font-source-code-pro/">安装 source-code-pro 字体</a>
       </li>
       
@@ -911,10 +909,6 @@ DSDT提取
       </li>
       
       
-      
-      <li>
-        <a href="/2020/Git_ignore_SSL/">Git忽略SSL认证</a>
-      </li>
       
       
       

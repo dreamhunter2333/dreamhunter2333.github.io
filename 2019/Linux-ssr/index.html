@@ -75,9 +75,6 @@
 	
 	
 	
-	<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 9999; pointer-events: none;"></canvas>
-	<script type="text/javascript" src="/js/anime.min.js"></script>
-	<script type="text/javascript" src="/js/firework.js"></script>
 </head>
 <body class="post-template">
 	<div class="site-wrapper">
@@ -208,9 +205,10 @@
     </nav>
 
     
-
+    <div class="inner">
+        <div id="comment"></div>
+    </div>
     
-
 </div>
 
 <div class="toc-bar">
@@ -540,6 +538,11 @@
 			<a href="/" title="Dreamhunter Blog">Dreamhunter Blog &copy; 2020</a>
 			
 				
+			        <span hidden="true" id="/2019/Linux-ssr/" class="leancloud-visitors" data-flag-title="Linux终端下使用酸酸乳">
+			            <span>阅读量 </span>
+			            <span class="leancloud-visitors-count">0</span>
+			        </span>
+	    		
     		
 		</div>
 		<nav class="site-footer-nav">
@@ -596,8 +599,22 @@
 
 
 
-
-
+<script id="valineScript" src="//unpkg.com/valine/dist/Valine.min.js" async></script>
+<script>
+    document.getElementById('valineScript').addEventListener("load", function() {
+        new Valine({
+            el: '#comment' ,
+            verify: false,
+            notify: false,
+            appId: 'QJzEVotcqV9aroPLqAbEb6pt-gzGzoHsz',
+            appKey: 'eDC4ScXwCucfXCjKPk0ul8z4',
+            placeholder: '说点什么',
+            pageSize: 10,
+            avatar: 'mm',
+            visitor: true
+        })
+    });
+</script>
 
 
 

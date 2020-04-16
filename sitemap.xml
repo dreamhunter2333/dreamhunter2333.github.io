@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jcstaff.club/2020/git-commit-amend-date/</loc>
+    
+    <lastmod>2020-04-16T07:45:02.413Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jcstaff.club/2020/Git-ignore-file-permission-changes/</loc>
     
     <lastmod>2020-03-23T02:35:22.796Z</lastmod>
@@ -37,6 +44,13 @@
   </url>
   
   <url>
+    <loc>https://jcstaff.club/manifest.json</loc>
+    
+    <lastmod>2020-03-21T13:49:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jcstaff.club/2020/wsl-linux-custom-install/</loc>
     
     <lastmod>2020-03-21T07:30:49.905Z</lastmod>
@@ -54,13 +68,6 @@
     <loc>https://jcstaff.club/2020/Git_ignore_SSL/</loc>
     
     <lastmod>2020-03-17T15:03:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jcstaff.club/manifest.json</loc>
-    
-    <lastmod>2020-01-28T05:41:59.000Z</lastmod>
     
   </url>
   
@@ -380,14 +387,14 @@
   </url>
   
   <url>
-    <loc>https://jcstaff.club/2019/Odoo-Order/</loc>
+    <loc>https://jcstaff.club/2019/Odoo-Many2one-three-level-domain/</loc>
     
     <lastmod>2019-09-24T07:45:19.337Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jcstaff.club/2019/Odoo-Many2one-three-level-domain/</loc>
+    <loc>https://jcstaff.club/2019/Odoo-Order/</loc>
     
     <lastmod>2019-09-24T07:45:19.337Z</lastmod>
     
@@ -422,14 +429,14 @@
   </url>
   
   <url>
-    <loc>https://jcstaff.club/2019/Odoo-models-AbstractModel/</loc>
+    <loc>https://jcstaff.club/2019/Odoo-many2one-hide-create/</loc>
     
     <lastmod>2019-09-24T07:45:19.336Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jcstaff.club/2019/Odoo-many2one-hide-create/</loc>
+    <loc>https://jcstaff.club/2019/Odoo-models-AbstractModel/</loc>
     
     <lastmod>2019-09-24T07:45:19.336Z</lastmod>
     

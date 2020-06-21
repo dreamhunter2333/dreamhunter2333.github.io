@@ -12,6 +12,7 @@
     "version": "4.2.1"
   },
   "dependencies": {
+    "blazy": "^1.8.2",
     "cheerio": "^1.0.0-rc.3",
     "circular": "^1.0.5",
     "hexo": "^4.2.1",

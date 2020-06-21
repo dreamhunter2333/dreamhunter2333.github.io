@@ -7,9 +7,9 @@ tags:
 categories: odoo
 ---
 
-# SQL 约束
+## SQL 约束
 
-## SQL 语句 约束
+### SQL 语句 约束
 
 > 约束用于限制加入表的数据的类型。
 
@@ -42,7 +42,7 @@ categories: odoo
 > `DEFAULT` 约束用于向列中插入默认值  
 > 如果没有规定其他的值，那么会将默认值添加到所有的新记录
 
-## odoo python 中的 sql 约束
+### odoo python 中的 sql 约束
 
 - 内部的基本元素是一个(name, sql_definition, message)的元祖
   - `@name`: 该约束的名称

@@ -135,7 +135,7 @@
             <h1 class="site-title">
                 归档
             </h1>
-            <h2 class="site-description">共 72 篇</h2>
+            <h2 class="site-description">共 73 篇</h2>
         </div>
         
         
@@ -146,6 +146,61 @@
 <div id="site-main" class="site-main outer" role="main">
 	<div class="inner">
 		<div class="post-feed">
+			
+			<article class="post-card post  no-image ">
+				
+				<div class="post-card-content">
+					<a class="post-card-content-link" title="Count code Lines by git log" href="/2019/Count-Lines-by-git-log/">
+						<header class="post-card-header">
+							<span class="post-card-tags">
+								
+								
+								git
+								| 
+								
+								<time datetime="2019-12-14T16:34:42.000Z">
+									2019-12-15
+								</time>
+							</span>
+							<h2 class="post-card-title">Count code Lines by git log</h2>
+						</header>
+						<div class="post-card-excerpt">
+							<p>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								git log 代码统计git统计代码量脚本
+保存为.sh脚本查看指定人的代码行数以及行数和
+
+1234567891011121314151617#!/bin/
+								...
+							</p>
+						</div>
+					</a>
+					<footer class="post-card-meta">
+						<div class="author-list">
+							<div class="author-list-item">
+								<div class="author-name-tooltip">dreamhunter</div>
+								
+								<a href="/about" class="static-avatar">
+									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
+								</a>
+								
+							</div>
+						</div>
+						<span class="reading-time">
+							3
+							min read
+						</span>
+					</footer>
+				</div>
+			</article>
 			
 			<article class="post-card post  no-image ">
 				
@@ -173,11 +228,15 @@
 								
 								
 								
-								
-								
 								Python locals()命名空间python中有全局变量和局部变量，python在搜索变量时会从命名空间中搜索，命名空间可以分为下面三类：
 
-局部命名空间
+局部命名空间： 函数或类中定义的变量所处的空间
+全局命名空间： 模块所在的空间
+内置命名空间： 内置命名空间，全局可用
+
+python查找变量的顺序：局部>全局>内置一旦找到相应的变量，即停止查找。
+locals的定义locals()函数不需要参数，会以字典类型返回当前位置的全部局部变量
+12345678def loc
 								...
 							</p>
 						</div>
@@ -744,66 +803,6 @@ Mysql/Pgsql
 				</div>
 			</article>
 			
-			<article class="post-card post  no-image ">
-				
-				<div class="post-card-content">
-					<a class="post-card-content-link" title="Docker rm" href="/2019/Docker-rm/">
-						<header class="post-card-header">
-							<span class="post-card-tags">
-								
-								
-								docker
-								| 
-								
-								<time datetime="2019-10-12T01:44:25.000Z">
-									2019-10-12
-								</time>
-							</span>
-							<h2 class="post-card-title">Docker rm</h2>
-						</header>
-						<div class="post-card-excerpt">
-							<p>
-								
-								
-								
-								
-								
-								
-								
-								Docker rmdocker 删除所有未使用数据1docker system prune
-
-docker 删除所有未使用镜像1docker image prune
-
-docker 停止所有容器1docker stop $(docker ps -q)
-
-docker 删除所有容器1docker rm $(docker ps -aq)
-
-docker 删除所有未使用容器1docker container prune
-
-docker 删除未使用所有卷12docker volume
-								...
-							</p>
-						</div>
-					</a>
-					<footer class="post-card-meta">
-						<div class="author-list">
-							<div class="author-list-item">
-								<div class="author-name-tooltip">dreamhunter</div>
-								
-								<a href="/about" class="static-avatar">
-									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
-								</a>
-								
-							</div>
-						</div>
-						<span class="reading-time">
-							1
-							min read
-						</span>
-					</footer>
-				</div>
-			</article>
-			
 		</div>
 	</div>
 </div>
@@ -814,7 +813,7 @@ docker 删除未使用所有卷12docker volume
 	<nav class="pagination">
 		
 		<nav class="page-nav">
-			<a class="extend prev" rel="prev" href="/archives/">← PREV</a><a class="page-number" href="/archives/">1</a><span class="page-number current">2</span><a class="page-number" href="/archives/page/3/">3</a><a class="page-number" href="/archives/page/4/">4</a><span class="space">…</span><a class="page-number" href="/archives/page/6/">6</a><a class="extend next" rel="next" href="/archives/page/3/">NEXT →</a>
+			<a class="extend prev" rel="prev" href="/archives/">← PREV</a><a class="page-number" href="/archives/">1</a><span class="page-number current">2</span><a class="page-number" href="/archives/page/3/">3</a><a class="page-number" href="/archives/page/4/">4</a><span class="space">…</span><a class="page-number" href="/archives/page/7/">7</a><a class="extend next" rel="next" href="/archives/page/3/">NEXT →</a>
 		</nav>
 		
 	</nav>
@@ -848,6 +847,12 @@ docker 删除未使用所有卷12docker volume
       
       
       <li>
+        <a href="/2020/git-default-editor/">git default editor</a>
+      </li>
+      
+      
+      
+      <li>
         <a href="/2020/vue-init-project/">vue init project</a>
       </li>
       
@@ -858,10 +863,6 @@ docker 删除未使用所有卷12docker volume
       </li>
       
       
-      
-      <li>
-        <a href="/2020/git-commit-amend-date/">git commit --amend --date</a>
-      </li>
       
       
       

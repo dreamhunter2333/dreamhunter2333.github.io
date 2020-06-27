@@ -135,7 +135,7 @@
             <h1 class="site-title">
                 归档
             </h1>
-            <h2 class="site-description">共 72 篇</h2>
+            <h2 class="site-description">共 73 篇</h2>
         </div>
         
         
@@ -146,6 +146,64 @@
 <div id="site-main" class="site-main outer" role="main">
 	<div class="inner">
 		<div class="post-feed">
+			
+			<article class="post-card post  no-image ">
+				
+				<div class="post-card-content">
+					<a class="post-card-content-link" title="Odoo _inherit _inherits(delegate)" href="/2019/Odoo-inherit-inherits-delegate/">
+						<header class="post-card-header">
+							<span class="post-card-tags">
+								
+								
+								odoo
+								| 
+								
+								<time datetime="2019-09-16T11:24:00.000Z">
+									2019-09-16
+								</time>
+							</span>
+							<h2 class="post-card-title">Odoo _inherit _inherits(delegate)</h2>
+						</header>
+						<div class="post-card-excerpt">
+							<p>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								Odoo 继承_inherit
+_name和_inherit不同
+_inherit 属性传入多个值来继承多个父模型
+
+
+_name和_inherit相同
+同名继
+								...
+							</p>
+						</div>
+					</a>
+					<footer class="post-card-meta">
+						<div class="author-list">
+							<div class="author-list-item">
+								<div class="author-name-tooltip">dreamhunter</div>
+								
+								<a href="/about" class="static-avatar">
+									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
+								</a>
+								
+							</div>
+						</div>
+						<span class="reading-time">
+							1
+							min read
+						</span>
+					</footer>
+				</div>
+			</article>
 			
 			<article class="post-card post  no-image ">
 				
@@ -173,12 +231,13 @@
 								
 								
 								
-								
-								
 								Odoo Order 排序类中的 _order
 _order字符串的语法类似于SQL中的ORDER BY
 
-1234class Library(models.M
+1234class Library(models.Model):    _name = 'library.book'    _description = 'Library'    _order = 'date desc, name'
+
+search()中的 order
+order=sort_specification 它用于强制所返回记录集的排序。默认，排序通过模型类的
 								...
 							</p>
 						</div>
@@ -739,58 +798,6 @@ many2many 点击添加项目不弹窗只增加一行
 				</div>
 			</article>
 			
-			<article class="post-card post  no-image ">
-				
-				<div class="post-card-content">
-					<a class="post-card-content-link" title="Odoo 模型和视图的继承、修改" href="/2019/Odoo-model-inherit-xpath/">
-						<header class="post-card-header">
-							<span class="post-card-tags">
-								
-								
-								odoo
-								| 
-								
-								<time datetime="2019-08-21T09:52:48.000Z">
-									2019-08-21
-								</time>
-							</span>
-							<h2 class="post-card-title">Odoo 模型和视图的继承、修改</h2>
-						</header>
-						<div class="post-card-excerpt">
-							<p>
-								
-								
-								
-								
-								
-								
-								
-								Odoo 模型和视图的继承、修改Python 模型中的继承、修改123class Demo(models.Model)    _inherit = "demo"    ...
-
-Xml 视图中的继承、修改1234567891011<!--search视图继承--><record  id="demo__search_inherit" model="ir.ui.view">    <field name="name">demo</fiel
-								...
-							</p>
-						</div>
-					</a>
-					<footer class="post-card-meta">
-						<div class="author-list">
-							<div class="author-list-item">
-								<div class="author-name-tooltip">dreamhunter</div>
-								
-								<a href="/about" class="static-avatar">
-									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
-								</a>
-								
-							</div>
-						</div>
-						<span class="reading-time">
-							1
-							min read
-						</span>
-					</footer>
-				</div>
-			</article>
-			
 		</div>
 	</div>
 </div>
@@ -801,7 +808,7 @@ Xml 视图中的继承、修改1234567891011<!--search视图继承--><record  id
 	<nav class="pagination">
 		
 		<nav class="page-nav">
-			<a class="extend prev" rel="prev" href="/archives/page/3/">← PREV</a><a class="page-number" href="/archives/">1</a><a class="page-number" href="/archives/page/2/">2</a><a class="page-number" href="/archives/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/archives/page/5/">5</a><a class="page-number" href="/archives/page/6/">6</a><a class="extend next" rel="next" href="/archives/page/5/">NEXT →</a>
+			<a class="extend prev" rel="prev" href="/archives/page/3/">← PREV</a><a class="page-number" href="/archives/">1</a><a class="page-number" href="/archives/page/2/">2</a><a class="page-number" href="/archives/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/archives/page/5/">5</a><a class="page-number" href="/archives/page/6/">6</a><a class="page-number" href="/archives/page/7/">7</a><a class="extend next" rel="next" href="/archives/page/5/">NEXT →</a>
 		</nav>
 		
 	</nav>
@@ -835,6 +842,12 @@ Xml 视图中的继承、修改1234567891011<!--search视图继承--><record  id
       
       
       <li>
+        <a href="/2020/git-default-editor/">git default editor</a>
+      </li>
+      
+      
+      
+      <li>
         <a href="/2020/vue-init-project/">vue init project</a>
       </li>
       
@@ -845,10 +858,6 @@ Xml 视图中的继承、修改1234567891011<!--search视图继承--><record  id
       </li>
       
       
-      
-      <li>
-        <a href="/2020/git-commit-amend-date/">git commit --amend --date</a>
-      </li>
       
       
       

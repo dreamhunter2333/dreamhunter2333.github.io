@@ -11,7 +11,7 @@
 	<link rel="preconnect" href="//9qpuwspm.api.lncld.net">
 	<link rel="preconnect" href="//gravatar.loli.net">
 
-	<title>asyncio ThreadPoolExecutor | Dreamhunter Blog</title>
+	<title>asyncio run in executor | Dreamhunter Blog</title>
 
 	<meta name="HandheldFriendly" content="True">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -39,14 +39,14 @@
 
 	<meta property="og:site_name" content="Dreamhunter Blog">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="asyncio ThreadPoolExecutor | Dreamhunter Blog">
+	<meta property="og:title" content="asyncio run in executor | Dreamhunter Blog">
 	<meta property="og:description" content>
-	<meta property="og:url" content="https://jcstaff.club/2021/python/asyncio-ThreadPoolExecutor/">
+	<meta property="og:url" content="https://jcstaff.club/2021/python/asyncio-run-in-executor/">
 
 	
 	<meta property="article:published_time" content="2021-01-05T21:01:00+08:00"> 
 	<meta property="article:author" content="dreamhunter">
-	<meta property="article:published_first" content="Dreamhunter Blog, /2021/python/asyncio-ThreadPoolExecutor/">
+	<meta property="article:published_first" content="Dreamhunter Blog, /2021/python/asyncio-run-in-executor/">
 	
 
 	
@@ -138,13 +138,13 @@
                 
                 
             </div>
-            <h1 class="post-full-title">asyncio ThreadPoolExecutor</h1>
+            <h1 class="post-full-title">asyncio run in executor</h1>
         </header>
         <div class="post-full no-image">
             
             <div class="post-full-content">
                 <article id="photoswipe" class="markdown-body">
-                    <h2 id="asyncio-ThreadPoolExecutor"><a href="#asyncio-ThreadPoolExecutor" class="headerlink" title="asyncio ThreadPoolExecutor"></a>asyncio ThreadPoolExecutor</h2><p>demo 如下，运行需要 2s<br>将 asyncio.sleep(2) 改成  time.sleep(2) 再次运行，异步的程序需要4s了，这是异步嘛？<br>sleep会阻塞线程，所以协程就不会异步</p>
+                    <h2 id="asyncio-run-in-executor"><a href="#asyncio-run-in-executor" class="headerlink" title="asyncio run in executor"></a>asyncio run in executor</h2><p>demo 如下，运行需要 2s<br>将 asyncio.sleep(2) 改成  time.sleep(2) 再次运行，异步的程序需要4s了，这是异步嘛？<br>sleep会阻塞线程，所以协程就不会异步</p>
 <figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> asyncio</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">def</span> <span class="title">long_blocking_function</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="comment"># time.sleep(2)</span></span><br><span class="line">    <span class="keyword">await</span> asyncio.sleep(<span class="number">2</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">def</span> <span class="title">run</span><span class="params">()</span>:</span></span><br><span class="line">    tasks = [long_blocking_function(), long_blocking_function()]</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">await</span> asyncio.gather(*tasks)</span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    loop = asyncio.new_event_loop()</span><br><span class="line">    asyncio.set_event_loop(loop)</span><br><span class="line">    now = time.time()</span><br><span class="line">    loop.run_until_complete(run())</span><br><span class="line">    print(time.time() - now)</span><br></pre></td></tr></tbody></table></figure>
 
 <p>修改代码如下，再次运行，程序运行结束再次只需要 2s了</p>
@@ -194,7 +194,7 @@
         </a>
     </div>
     <div class="toc-main">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#asyncio-ThreadPoolExecutor"><span class="toc-text">asyncio ThreadPoolExecutor</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#asyncio-run-in-executor"><span class="toc-text">asyncio run in executor</span></a></li></ol>
     </div>
 </div>
 
@@ -296,7 +296,7 @@
       
       
       <li>
-        <a href="/2021/python/asyncio-ThreadPoolExecutor/">asyncio ThreadPoolExecutor</a>
+        <a href="/2021/python/asyncio-run-in-executor/">asyncio run in executor</a>
       </li>
       
       
@@ -529,7 +529,7 @@
 			<a href="/" title="Dreamhunter Blog">Dreamhunter Blog © 2021</a>
 			
 				
-			        <span hidden="true" id="/2021/python/asyncio-ThreadPoolExecutor/" class="leancloud-visitors" data-flag-title="asyncio ThreadPoolExecutor">
+			        <span hidden="true" id="/2021/python/asyncio-run-in-executor/" class="leancloud-visitors" data-flag-title="asyncio run in executor">
 			            <span>阅读量 </span>
 			            <span class="leancloud-visitors-count">0</span>
 			        </span>

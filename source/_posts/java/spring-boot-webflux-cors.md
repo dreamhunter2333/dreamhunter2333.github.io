@@ -1,7 +1,7 @@
 ---
 title: spring boot webflux cors
 date: 2020-12-10 21:42:03
-categories: spring
+categories: java
 tags: spring
 ---
 

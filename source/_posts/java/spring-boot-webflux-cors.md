@@ -1,6 +1,6 @@
 ---
 title: spring boot webflux cors
-date: 2021-01-05 21:42:03
+date: 2021-12-10 21:42:03
 categories: spring
 tags: spring
 ---

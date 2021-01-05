@@ -1,11 +1,11 @@
 ---
-title: asyncio ThreadPoolExecutor
+title: asyncio run in executor
 date: 2021-01-05 21:37:13
 categories: python
 tags: python
 ---
 
-## asyncio ThreadPoolExecutor
+## asyncio run in executor
 
 demo 如下，运行需要 2s
 将 asyncio.sleep(2) 改成  time.sleep(2) 再次运行，异步的程序需要4s了，这是异步嘛？

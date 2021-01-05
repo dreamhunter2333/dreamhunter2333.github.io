@@ -34,17 +34,6 @@
 	
 
 	
-	<link rel="manifest" href="/manifest.json">
-	<meta name="theme-color" content="#323336">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="default">
-	<meta name="apple-mobile-web-app-title" content="Dreamhunter Blog">
-	<link rel="apple-touch-icon" href="/imgs/app.png">
-	<meta name="application-name" content="Dreamhunter Blog">
-	<meta name="msapplication-TileColor" content="#323336">
-	<meta name="msapplication-square612x612logo" content="/imgs/app.png">
-	
-	
 
 	
 
@@ -150,112 +139,7 @@
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
-					<a class="post-card-content-link" title="java Pinyin4jUtil" href="/2021/java-Pinyin4jUtil/">
-						<header class="post-card-header">
-							<span class="post-card-tags">
-								
-								
-								java
-								| 
-								
-								<time datetime="2021-01-05T13:44:46.000Z">
-									2021-01-05
-								</time>
-							</span>
-							<h2 class="post-card-title">java Pinyin4jUtil</h2>
-						</header>
-						<div class="post-card-excerpt">
-							<p>
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								java 汉字转为拼音123456789101112131415161718192021222324252627282930313233343536373839
-								...
-							</p>
-						</div>
-					</a>
-					<footer class="post-card-meta">
-						<div class="author-list">
-							<div class="author-list-item">
-								<div class="author-name-tooltip">dreamhunter</div>
-								
-								<a href="/about" class="static-avatar">
-									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
-								</a>
-								
-							</div>
-						</div>
-						<span class="reading-time">
-							3
-							min read
-						</span>
-					</footer>
-				</div>
-			</article>
-			
-			<article class="post-card post  no-image ">
-				
-				<div class="post-card-content">
-					<a class="post-card-content-link" title="java JacksonUtil" href="/2021/java-JacksonUtil/">
-						<header class="post-card-header">
-							<span class="post-card-tags">
-								
-								
-								java
-								| 
-								
-								<time datetime="2021-01-05T13:43:14.000Z">
-									2021-01-05
-								</time>
-							</span>
-							<h2 class="post-card-title">java JacksonUtil</h2>
-						</header>
-						<div class="post-card-excerpt">
-							<p>
-								
-								
-								
-								
-								
-								
-								
-								java JacksonUtil json处理工具封装虽然阿里巴巴开源的 JSON 解析库 fastjson 很快很好用，但是因为一些安全性的问题，
-附链接
-我们还是选用了 com.fasterxml.jackson
-12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
-								...
-							</p>
-						</div>
-					</a>
-					<footer class="post-card-meta">
-						<div class="author-list">
-							<div class="author-list-item">
-								<div class="author-name-tooltip">dreamhunter</div>
-								
-								<a href="/about" class="static-avatar">
-									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
-								</a>
-								
-							</div>
-						</div>
-						<span class="reading-time">
-							10
-							min read
-						</span>
-					</footer>
-				</div>
-			</article>
-			
-			<article class="post-card post  no-image ">
-				
-				<div class="post-card-content">
-					<a class="post-card-content-link" title="spring boot webflux cors" href="/2021/spring-boot-webflux-cors/">
+					<a class="post-card-content-link" title="spring boot webflux cors" href="/2021/java/spring-boot-webflux-cors/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
 								
@@ -263,8 +147,8 @@
 								spring
 								| 
 								
-								<time datetime="2021-01-05T13:42:03.000Z">
-									2021-01-05
+								<time datetime="2021-12-10T13:42:03.000Z">
+									2021-12-10
 								</time>
 							</span>
 							<h2 class="post-card-title">spring boot webflux cors</h2>
@@ -278,7 +162,9 @@
 								
 								
 								
-								spring boot webflux 允许跨域1234567891011121314@Configuration@EnableWebFluxpublic class WebConfig implements WebFluxConfigurer {     @Override    public void addCorsMappings(CorsRegistry registry) {        // 允许 GET POST OPTIONS DELET
+								
+								
+								spring boot webflux 允许跨域1234567891011121314@Configuration@EnableWebFluxpublic cl
 								...
 							</p>
 						</div>
@@ -305,61 +191,7 @@
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
-					<a class="post-card-content-link" title="fast redis zset" href="/2021/fast-redis-zset/">
-						<header class="post-card-header">
-							<span class="post-card-tags">
-								
-								
-								redis
-								| 
-								
-								<time datetime="2021-01-05T13:40:37.000Z">
-									2021-01-05
-								</time>
-							</span>
-							<h2 class="post-card-title">fast redis zset</h2>
-						</header>
-						<div class="post-card-excerpt">
-							<p>
-								
-								
-								
-								
-								
-								
-								
-								fast redis zsetredis支持一个数据结构，叫做 zset，也就是有序的列表。
-通过它，可以实现游戏排行榜一类的功能，或者实现Topx这样的需求，也能精准的让用户在海量数据中找到自己的位置。
-zset的底层结构是跳跃表，而与之类似的Java中的有序Set是TreeSet，使用红黑树实现的。
-我们的问题是：zset中能存放多少条记录？线上有没有有说服力的数据？
-先笼统的回答一下，zset理论上支持的元素最多是2^32-1个，约42亿，如果你的内存够大，放下国人绰绰
-								...
-							</p>
-						</div>
-					</a>
-					<footer class="post-card-meta">
-						<div class="author-list">
-							<div class="author-list-item">
-								<div class="author-name-tooltip">dreamhunter</div>
-								
-								<a href="/about" class="static-avatar">
-									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
-								</a>
-								
-							</div>
-						</div>
-						<span class="reading-time">
-							1
-							min read
-						</span>
-					</footer>
-				</div>
-			</article>
-			
-			<article class="post-card post  no-image ">
-				
-				<div class="post-card-content">
-					<a class="post-card-content-link" title="asyncio ThreadPoolExecutor" href="/2021/asyncio-ThreadPoolExecutor/">
+					<a class="post-card-content-link" title="asyncio ThreadPoolExecutor" href="/2021/python/asyncio-ThreadPoolExecutor/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
 								
@@ -410,7 +242,164 @@ zset的底层结构是跳跃表，而与之类似的Java中的有序Set是TreeSe
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
-					<a class="post-card-content-link" title="nginx Access-Control-Allow-Origin" href="/2021/nginx-Access-Control-Allow-Origin/">
+					<a class="post-card-content-link" title="java JacksonUtil" href="/2020/java/java-JacksonUtil/">
+						<header class="post-card-header">
+							<span class="post-card-tags">
+								
+								
+								java
+								| 
+								
+								<time datetime="2020-12-30T13:43:14.000Z">
+									2020-12-30
+								</time>
+							</span>
+							<h2 class="post-card-title">java JacksonUtil</h2>
+						</header>
+						<div class="post-card-excerpt">
+							<p>
+								
+								
+								
+								
+								
+								
+								
+								java JacksonUtil json处理工具封装虽然阿里巴巴开源的 JSON 解析库 fastjson 很快很好用，但是因为一些安全性的问题，
+附链接
+我们还是选用了 com.fasterxml.jackson
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+								...
+							</p>
+						</div>
+					</a>
+					<footer class="post-card-meta">
+						<div class="author-list">
+							<div class="author-list-item">
+								<div class="author-name-tooltip">dreamhunter</div>
+								
+								<a href="/about" class="static-avatar">
+									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
+								</a>
+								
+							</div>
+						</div>
+						<span class="reading-time">
+							10
+							min read
+						</span>
+					</footer>
+				</div>
+			</article>
+			
+			<article class="post-card post  no-image ">
+				
+				<div class="post-card-content">
+					<a class="post-card-content-link" title="java Pinyin4jUtil" href="/2020/java/java-Pinyin4jUtil/">
+						<header class="post-card-header">
+							<span class="post-card-tags">
+								
+								
+								java
+								| 
+								
+								<time datetime="2020-12-20T13:44:46.000Z">
+									2020-12-20
+								</time>
+							</span>
+							<h2 class="post-card-title">java Pinyin4jUtil</h2>
+						</header>
+						<div class="post-card-excerpt">
+							<p>
+								
+								
+								
+								
+								
+								
+								
+								java 汉字转为拼音123456789101112131415161718192021222324252627282930313233343536373839404142import lombok.extern.slf4j.Slf4j;import net.sourceforge.pinyin4j.PinyinHelper;import net.sourceforge.pinyin4j.format.HanyuPinyinCaseType;import net.source
+								...
+							</p>
+						</div>
+					</a>
+					<footer class="post-card-meta">
+						<div class="author-list">
+							<div class="author-list-item">
+								<div class="author-name-tooltip">dreamhunter</div>
+								
+								<a href="/about" class="static-avatar">
+									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
+								</a>
+								
+							</div>
+						</div>
+						<span class="reading-time">
+							3
+							min read
+						</span>
+					</footer>
+				</div>
+			</article>
+			
+			<article class="post-card post  no-image ">
+				
+				<div class="post-card-content">
+					<a class="post-card-content-link" title="fast redis zset" href="/2020/redis/fast-redis-zset/">
+						<header class="post-card-header">
+							<span class="post-card-tags">
+								
+								
+								redis
+								| 
+								
+								<time datetime="2020-11-25T13:40:37.000Z">
+									2020-11-25
+								</time>
+							</span>
+							<h2 class="post-card-title">fast redis zset</h2>
+						</header>
+						<div class="post-card-excerpt">
+							<p>
+								
+								
+								
+								
+								
+								
+								
+								fast redis zsetredis支持一个数据结构，叫做 zset，也就是有序的列表。
+通过它，可以实现游戏排行榜一类的功能，或者实现Topx这样的需求，也能精准的让用户在海量数据中找到自己的位置。
+zset的底层结构是跳跃表，而与之类似的Java中的有序Set是TreeSet，使用红黑树实现的。
+我们的问题是：zset中能存放多少条记录？线上有没有有说服力的数据？
+先笼统的回答一下，zset理论上支持的元素最多是2^32-1个，约42亿，如果你的内存够大，放下国人绰绰
+								...
+							</p>
+						</div>
+					</a>
+					<footer class="post-card-meta">
+						<div class="author-list">
+							<div class="author-list-item">
+								<div class="author-name-tooltip">dreamhunter</div>
+								
+								<a href="/about" class="static-avatar">
+									<img class="author-profile-image" src="/imgs/avatar.jpg" alt="dreamhunter">
+								</a>
+								
+							</div>
+						</div>
+						<span class="reading-time">
+							1
+							min read
+						</span>
+					</footer>
+				</div>
+			</article>
+			
+			<article class="post-card post  no-image ">
+				
+				<div class="post-card-content">
+					<a class="post-card-content-link" title="nginx Access-Control-Allow-Origin" href="/2020/linux/nginx-Access-Control-Allow-Origin/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
 								
@@ -418,8 +407,8 @@ zset的底层结构是跳跃表，而与之类似的Java中的有序Set是TreeSe
 								nginx
 								| 
 								
-								<time datetime="2021-01-05T13:36:11.000Z">
-									2021-01-05
+								<time datetime="2020-11-20T13:36:11.000Z">
+									2020-11-20
 								</time>
 							</span>
 							<h2 class="post-card-title">nginx Access-Control-Allow-Origin</h2>
@@ -460,7 +449,7 @@ zset的底层结构是跳跃表，而与之类似的Java中的有序Set是TreeSe
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
-					<a class="post-card-content-link" title="nginx upstream" href="/2021/nginx-upstream/">
+					<a class="post-card-content-link" title="nginx upstream" href="/2020/linux/nginx-upstream/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
 								
@@ -468,8 +457,8 @@ zset的底层结构是跳跃表，而与之类似的Java中的有序Set是TreeSe
 								nginx
 								| 
 								
-								<time datetime="2021-01-05T13:33:43.000Z">
-									2021-01-05
+								<time datetime="2020-11-10T13:33:43.000Z">
+									2020-11-10
 								</time>
 							</span>
 							<h2 class="post-card-title">nginx upstream</h2>
@@ -510,7 +499,7 @@ zset的底层结构是跳跃表，而与之类似的Java中的有序Set是TreeSe
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
-					<a class="post-card-content-link" title="git default editor" href="/2020/git-default-editor/">
+					<a class="post-card-content-link" title="git default editor" href="/2020/git/git-default-editor/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
 								
@@ -559,7 +548,7 @@ zset的底层结构是跳跃表，而与之类似的Java中的有序Set是TreeSe
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
-					<a class="post-card-content-link" title="vue init project" href="/2020/vue-init-project/">
+					<a class="post-card-content-link" title="vue init project" href="/2020/front/vue-init-project/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
 								
@@ -612,7 +601,7 @@ zset的底层结构是跳跃表，而与之类似的Java中的有序Set是TreeSe
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
-					<a class="post-card-content-link" title="intall and use yarn" href="/2020/intall-and-use-yarn/">
+					<a class="post-card-content-link" title="intall and use yarn" href="/2020/front/intall-and-use-yarn/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
 								
@@ -664,7 +653,7 @@ linux12345apt-get install gnupg -ycurl -sS https://dl.yarnpkg.com/debian/pubkey.
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
-					<a class="post-card-content-link" title="git commit --amend --date" href="/2020/git-commit-amend-date/">
+					<a class="post-card-content-link" title="git commit --amend --date" href="/2020/git/git-commit-amend-date/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
 								
@@ -688,7 +677,6 @@ linux12345apt-get install gnupg -ycurl -sS https://dl.yarnpkg.com/debian/pubkey.
 								
 								
 								git commit –amend –date=1234# 修改上一次 commit 时间为当前git commit --amend --date="$(date -R)"# 修改上一次 commit 时间git commit --amend --date="Thu, 16 Apr 2020 15:44:13 +0800"
-
 
 								
 							</p>
@@ -716,7 +704,7 @@ linux12345apt-get install gnupg -ycurl -sS https://dl.yarnpkg.com/debian/pubkey.
 			<article class="post-card post  no-image ">
 				
 				<div class="post-card-content">
-					<a class="post-card-content-link" title="Git-ignore-file-permission-changes" href="/2020/Git-ignore-file-permission-changes/">
+					<a class="post-card-content-link" title="Git-ignore-file-permission-changes" href="/2020/git/Git-ignore-file-permission-changes/">
 						<header class="post-card-header">
 							<span class="post-card-tags">
 								
@@ -740,7 +728,6 @@ linux12345apt-get install gnupg -ycurl -sS https://dl.yarnpkg.com/debian/pubkey.
 								
 								
 								Git ignore file permission changes12git config core.filemode falsegit config --global core.fileMode false
-
 
 								
 							</p>
@@ -809,19 +796,19 @@ linux12345apt-get install gnupg -ycurl -sS https://dl.yarnpkg.com/debian/pubkey.
       
       
       <li>
-        <a href="/2021/java-Pinyin4jUtil/">java Pinyin4jUtil</a>
+        <a href="/2021/java/spring-boot-webflux-cors/">spring boot webflux cors</a>
       </li>
       
       
       
       <li>
-        <a href="/2021/java-JacksonUtil/">java JacksonUtil</a>
+        <a href="/2021/python/asyncio-ThreadPoolExecutor/">asyncio ThreadPoolExecutor</a>
       </li>
       
       
       
       <li>
-        <a href="/2021/spring-boot-webflux-cors/">spring boot webflux cors</a>
+        <a href="/2020/java/java-JacksonUtil/">java JacksonUtil</a>
       </li>
       
       

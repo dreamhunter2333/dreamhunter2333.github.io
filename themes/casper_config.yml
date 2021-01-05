@@ -1,0 +1,91 @@
+# Config
+# rss:            # link
+favicon: /imgs/favicon.ico
+# blog_logo:
+header_image: /imgs/header_image.jpg
+bio: 你指尖跃动的电光，是我此生不变的信仰
+post_toc: true
+
+# Keywords
+keywords: hexo, casper, ghost, theme
+
+# Menu
+menu:
+  ABOUT: /about
+  ARCHIVES: /archives
+  # you can add here
+
+# author
+author_image: /imgs/avatar.jpg
+author_bio: 你指尖跃动的电光，是我此生不变的信仰
+author_location: 你指尖跃动的电光，是我此生不变的信仰
+
+# Social Links
+social:
+  weibo:
+  github: https://github.com/jinmu333
+  twitter:
+  facebook:
+  telegram:
+  bilibili: https://bilibili.com
+  youtube: 
+  # You only can use that I have added, I will keep adding
+
+# Footer Links
+footer_text: 
+  # title: link
+  # 粤ICP备xxxxxxx号-x: http://www.miitbeian.gov.cn
+  # 粤公网安备xxxxxxx号: http://www.beian.gov.cn
+
+# Widget
+widgets:
+  recent_posts: true
+  category: true
+  tagcloud: true
+  # This is a simple theme, I think 3 is enough.
+
+# 文章图片相册（点击图片可以放大）
+# https://github.com/dimsemenov/PhotoSwipe
+lightgallery: true
+
+# Post page fload header
+floadheader: false
+
+# Gallery
+# https://github.com/dimsemenov/PhotoSwipe
+photoswipe: true
+
+# LazyLoad
+# home page has enabled, this value is to post page
+# https://github.com/dinbror/blazy
+lazyload: true
+
+# Local Search
+local_search: true
+
+# Comment
+# https://valine.js.org
+comment: true
+valine:
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki 
+  verify: false # Verification code
+  appId: QJzEVotcqV9aroPLqAbEb6pt-gzGzoHsz # your leancloud application appid
+  appKey: eDC4ScXwCucfXCjKPk0ul8z4 # your leancloud application appkey
+  placeholder: 说点什么 # comment box placeholder
+  pageSize: 10 # pagination size
+  avatar: mm # gravatar style
+  visitor: true # page view record
+
+# PWA
+# you need create a manifest.json file in hexo's source folder
+manifest: false
+service_workers: false
+
+navColor: '3c484e'
+
+# Baidu Push
+baidu: false
+
+# Google Analytics
+googleAnalytics: false
+GA_TRACKING_ID: UA-XXXXXXXXXX-1

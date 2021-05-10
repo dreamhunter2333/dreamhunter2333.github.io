@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "4188e32cc0356564df759a948376b630"
+    "revision": "580811305c66bda705f3d52923d0f1a1"
   },
   {
     "url": "assets/css/0.styles.a1180dfb.css",
@@ -54,40 +54,44 @@ self.__precacheManifest = [
     "revision": "68a30e5c194aebfe9534c2c9b5c80aa8"
   },
   {
-    "url": "assets/js/102.db34741d.js",
-    "revision": "96216b844f63e8933db7c9e414a51d7e"
+    "url": "assets/js/102.08ddb0a0.js",
+    "revision": "8f0bd5dfcaafc2c27ed649fc5548d593"
   },
   {
-    "url": "assets/js/103.0369ade7.js",
-    "revision": "0a4d011e5194f3f2e7a4a73f9dd6bbd9"
+    "url": "assets/js/103.015e4c3e.js",
+    "revision": "dd1ba6f1da6d0bacd5b277be0ae41d2c"
   },
   {
-    "url": "assets/js/104.0117614f.js",
-    "revision": "13a3ca112b71d59e8ec3f2a06a41a6ff"
+    "url": "assets/js/104.964ff787.js",
+    "revision": "369627134f404e737b0a702ec0f5bc9b"
   },
   {
-    "url": "assets/js/105.aee4676b.js",
-    "revision": "451fc6bf3e2e39bc39217e3a6891a1a0"
+    "url": "assets/js/105.9e962e38.js",
+    "revision": "0b54fa4dfd7e7ab4020c850d1f4be919"
   },
   {
-    "url": "assets/js/106.bf2c8d0c.js",
-    "revision": "bad1c3be821017a5bb9d67399dbd773a"
+    "url": "assets/js/106.3c5fd544.js",
+    "revision": "49a17a2de81dcc5d7639541d413615bf"
   },
   {
-    "url": "assets/js/107.b49e9dc6.js",
-    "revision": "7e20609123880bbcc833e4e41f2bd48a"
+    "url": "assets/js/107.0d8e0020.js",
+    "revision": "e96f2d32b8b57183cec7e101848f7c50"
   },
   {
-    "url": "assets/js/108.8971978b.js",
-    "revision": "aede9b529971f1ce6a971b6f74b68b3b"
+    "url": "assets/js/108.56ceedfc.js",
+    "revision": "44dae28516b2030ae0521e2ca0a37aba"
   },
   {
-    "url": "assets/js/109.a1a18573.js",
-    "revision": "007209fade0d67225021502fab73624e"
+    "url": "assets/js/109.cd6d02b7.js",
+    "revision": "22da79a36df689aa29000e0c85caf01c"
   },
   {
     "url": "assets/js/11.69b157b1.js",
     "revision": "4c83239fab190348e9d5dad712041630"
+  },
+  {
+    "url": "assets/js/110.af0695eb.js",
+    "revision": "2fea7a79bf41d035c8ac7df180f2db88"
   },
   {
     "url": "assets/js/12.baed0c06.js",
@@ -98,12 +102,12 @@ self.__precacheManifest = [
     "revision": "5bf138218653ae71e2c6ad2f5c3cebb5"
   },
   {
-    "url": "assets/js/14.84b2d105.js",
-    "revision": "b438d09dd18810c92cab3271ac4023d9"
+    "url": "assets/js/14.60666d81.js",
+    "revision": "4d85c313ff0fb26e38c24cee3e27396e"
   },
   {
-    "url": "assets/js/15.af1a6494.js",
-    "revision": "38e4233e46fbba5e1d8b46e1f62833fa"
+    "url": "assets/js/15.4acafa1b.js",
+    "revision": "360cec26d94ca4ed52fbd8be91370e47"
   },
   {
     "url": "assets/js/16.7d5b489a.js",
@@ -290,52 +294,52 @@ self.__precacheManifest = [
     "revision": "a11e5297637f9c01c391aaa9be90ea71"
   },
   {
-    "url": "assets/js/59.b44a57ee.js",
-    "revision": "9af024421d9c0f90a73a0800b446b0c7"
+    "url": "assets/js/59.04912304.js",
+    "revision": "ad2f97e3447334a2fae5f39e9aa203f0"
   },
   {
     "url": "assets/js/6.6d7bedbb.js",
     "revision": "91579a973bf33c858aea0e27e16600c8"
   },
   {
-    "url": "assets/js/60.d93286d0.js",
-    "revision": "c905bbe500c4af43ae2590bc994914d9"
+    "url": "assets/js/60.109731a0.js",
+    "revision": "2fbb3dfce0073daa9e0687928338bf99"
   },
   {
-    "url": "assets/js/61.e4e07168.js",
-    "revision": "a522c3fac807d6f0a206fe50dc2d4a95"
+    "url": "assets/js/61.dede9cfa.js",
+    "revision": "2ef8df3fc9810b15c0d610e93d2ea895"
   },
   {
-    "url": "assets/js/62.1d3d8033.js",
-    "revision": "b6b5f8e92f2ccfb932a45e649b549632"
+    "url": "assets/js/62.9e27da2b.js",
+    "revision": "1fef7b3ce5d666446b4e1070bf806498"
   },
   {
-    "url": "assets/js/63.11df4604.js",
-    "revision": "3335d08d356670aa7e4f7c5c5fa41919"
+    "url": "assets/js/63.ffe7b31c.js",
+    "revision": "0e0c0901440fa659e881194c640c12d3"
   },
   {
-    "url": "assets/js/64.4631c2a7.js",
-    "revision": "89eedb85cfd613084ccc8d151a16ac90"
+    "url": "assets/js/64.f62a1379.js",
+    "revision": "62e7638516288df0e09fb1e9a56e2f72"
   },
   {
-    "url": "assets/js/65.90f207ee.js",
-    "revision": "a2c8ad37a47c4d04339c7f303eecb438"
+    "url": "assets/js/65.427c58f3.js",
+    "revision": "a122ad71310d860612ba91adc32daae5"
   },
   {
-    "url": "assets/js/66.a10e6bf1.js",
-    "revision": "ef08b72f9c21ed4fb85df1eded03d2a5"
+    "url": "assets/js/66.7982fdf1.js",
+    "revision": "7d6d3e0ee30c0a02febd4967ba6fdaad"
   },
   {
-    "url": "assets/js/67.78441f6c.js",
-    "revision": "0cd837e54b4b611658164197cf46fdc0"
+    "url": "assets/js/67.d0f562d0.js",
+    "revision": "5c91edb3accf50f9ea3b12d6f42295c5"
   },
   {
-    "url": "assets/js/68.caacafca.js",
-    "revision": "b391ca2f2a40e12e9fb67ed13fd49af9"
+    "url": "assets/js/68.b1cec336.js",
+    "revision": "9007378658b16da8b3317abd0fdd9d22"
   },
   {
-    "url": "assets/js/69.2127b3fc.js",
-    "revision": "8e6334d81472661ec2c176b5ab5a0cce"
+    "url": "assets/js/69.c74e43a9.js",
+    "revision": "c5244df85b4ef9eac43387a340203bf5"
   },
   {
     "url": "assets/js/7.76b7dfa7.js",
@@ -426,8 +430,8 @@ self.__precacheManifest = [
     "revision": "bdbcb63e5e47b542021d5fab93e05c7f"
   },
   {
-    "url": "assets/js/9.bfc38798.js",
-    "revision": "ff5b81e045ab06abffaf6dc779d8fbdb"
+    "url": "assets/js/9.b4420e5a.js",
+    "revision": "fd2f13f339339dba6b5726d756fec3cd"
   },
   {
     "url": "assets/js/90.c7dc9256.js",
@@ -470,8 +474,8 @@ self.__precacheManifest = [
     "revision": "9c2936e8a82b86d8c06ef670e467c6ef"
   },
   {
-    "url": "assets/js/app.ea116161.js",
-    "revision": "6632ed30274bc3d080b8e76d7ccccf82"
+    "url": "assets/js/app.03e400bd.js",
+    "revision": "568442be5735309fcea497088cb005d0"
   },
   {
     "url": "baidu_verify_fRZdpw7Mia.html",
@@ -479,71 +483,71 @@ self.__precacheManifest = [
   },
   {
     "url": "categories/database/index.html",
-    "revision": "da642ba25eb8b404cfd3c68229878b07"
+    "revision": "8354156b20098db5faef9ca638143120"
   },
   {
     "url": "categories/docker/index.html",
-    "revision": "179afc67bc6883fb9410fe18751fde07"
+    "revision": "fe82da959d7b3e8f3c07cca9c217a758"
   },
   {
     "url": "categories/front/index.html",
-    "revision": "0f4a55b6acaef75898348ac93f15f81e"
+    "revision": "11829fcc5c0d3ecc8d6022b3ec4098bb"
   },
   {
     "url": "categories/git/index.html",
-    "revision": "975ed6a2a366a7349cd29bf3274ba54f"
+    "revision": "99c7b118ae5644c3f44b958bbdb71f7c"
   },
   {
     "url": "categories/hackintosh/index.html",
-    "revision": "ca16b658ab2d35d3091fc3adbc4760e0"
+    "revision": "a19b796f99dfdaf9ab036667186fc2ed"
   },
   {
     "url": "categories/index.html",
-    "revision": "ce7c53342bef103b338c2a5ab802f4ca"
+    "revision": "b4222e1d774a53338c29551cf7123aae"
   },
   {
     "url": "categories/java/index.html",
-    "revision": "dfdbf5fc28057e764e101011c9f08e6c"
+    "revision": "015f2470805b7b8f428b78d351258523"
   },
   {
     "url": "categories/java/page/2/index.html",
-    "revision": "59c9bdd06bd90de17c163f0564afcbd8"
+    "revision": "b55317a7b9e8d78dad6d6adb040e10af"
   },
   {
     "url": "categories/linux/index.html",
-    "revision": "68272186ea7a20d53c47ea39ac458856"
+    "revision": "e2072c0e788484eede2688ead5f3a585"
   },
   {
     "url": "categories/mq/index.html",
-    "revision": "b278cdb40528e027a72b456b317c836a"
+    "revision": "dc43bc9e4b031bbcf0525a97b44c15e6"
   },
   {
     "url": "categories/nginx/index.html",
-    "revision": "6d567275cbc8eebce23df94c0325d035"
+    "revision": "18ca8cbeaffddd60a33e29b20127d51a"
   },
   {
     "url": "categories/odoo/index.html",
-    "revision": "fee4bd5b2c2f5b4eedd51bf27e1ac6ee"
+    "revision": "5e4e92a0c7ad1cd4b66775fe87fe94d5"
   },
   {
     "url": "categories/odoo/page/2/index.html",
-    "revision": "ced1e2a28d9e9f3f748d74ddc6f7f252"
+    "revision": "4c119a953f5349ae6d98949f11bcec84"
   },
   {
     "url": "categories/odoo/page/3/index.html",
-    "revision": "369856b1d22d4a29a783807711992274"
+    "revision": "4454614148697bb17388c2d1953c98a4"
   },
   {
     "url": "categories/odoo/page/4/index.html",
-    "revision": "7a23d50b23ebff8eeb08653db9dc95fa"
+    "revision": "ae61fbb51e7994290b1cbf60b4faf87c"
   },
   {
     "url": "categories/python/index.html",
-    "revision": "081b3cc2a940269403bab2ffd24b6adb"
+    "revision": "d8e2f2ff799c8ac2572581d1bd1f0036"
   },
   {
     "url": "categories/redis/index.html",
-    "revision": "15d09e8b3b716fb1680f3690a90b41fe"
+    "revision": "2acdd362dc8b30fe7c70c3c33b485bc4"
   },
   {
     "url": "google8beda02b5c39281f.html",
@@ -731,7 +735,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "9c27583fe7618bdabbae01ed70b0029c"
+    "revision": "0a12f7d643db97cb3c4d1a9ab84d69c1"
   },
   {
     "url": "live2d/koharu/assets/moc/koharu.2048/texture_00.png",
@@ -775,527 +779,535 @@ self.__precacheManifest = [
   },
   {
     "url": "posts/database/SQL-constraints.html",
-    "revision": "bab3c22da08b76fc7e7fe83177cdef91"
+    "revision": "522aef3e8ecdaba5d1c5e540b7a1454d"
   },
   {
     "url": "posts/database/SQL-NULL-Func.html",
-    "revision": "d17ccc1be448b594ae798f367e19353a"
+    "revision": "b716ecb23d2845fe3d3a2038ebe658a9"
   },
   {
     "url": "posts/database/SQL-statement.html",
-    "revision": "06eefb3be8a8b1c8673f05cf59600c5a"
+    "revision": "8c1d9c348ecc08df5ca5367f59b2f273"
   },
   {
     "url": "posts/docker/docker-compose-hosts.html",
-    "revision": "686fe7caa6ea7b2c016d749f5de16bdd"
+    "revision": "f2d43e7f2fb0bcf8935139f468fe8c50"
   },
   {
     "url": "posts/docker/docker-host.html",
-    "revision": "46cad79635e3f7251d12d12c1d789253"
+    "revision": "babade4161d1994b72f7787538ecf1ac"
   },
   {
     "url": "posts/docker/docker-install-use.html",
-    "revision": "4d219a830a88196f46d5dd83ca7ec1cd"
+    "revision": "c3dbd2eb47cfc6d5a3e528f60f843aac"
   },
   {
     "url": "posts/docker/Docker-rm.html",
-    "revision": "5ec0644522b1647384ee2b4dce14a58a"
+    "revision": "4f56941c20c1728bd9e8d94fcd541ded"
   },
   {
     "url": "posts/docker/run-code-server-in-docker.html",
-    "revision": "8a5b9e1871b9b7dd43c5ddf79fa3eac6"
+    "revision": "7db33238466b017c440369e333611ecc"
   },
   {
     "url": "posts/front/intall-and-use-yarn.html",
-    "revision": "a51ab5a4fd24005ce42ec3a4938843b6"
+    "revision": "9664201068b73a25193f09e959a29c66"
   },
   {
     "url": "posts/front/vue-init-project.html",
-    "revision": "eb593f3128b70cbe741aa9ec99423941"
+    "revision": "3e5ce97b1feec7667d4a8bb9e4c70989"
   },
   {
     "url": "posts/front/vuepress-blog.html",
-    "revision": "1795e4bb77f06721d390a81a816cf323"
+    "revision": "fed04da8993a60094f5605d899c810b6"
   },
   {
     "url": "posts/front/web-vscode.html",
-    "revision": "2eda6fc04cab38c5f40c99ab7a766280"
+    "revision": "c1f4d05c89de012bd845bd3d20df95c8"
   },
   {
     "url": "posts/git/Count-Lines-by-git-log.html",
-    "revision": "ce9083da5ee7ba706fbe7a2d70fed466"
+    "revision": "a6e1e9597107d03075c3258c0f40e286"
   },
   {
     "url": "posts/git/Git_ignore_SSL.html",
-    "revision": "3c6c4f4d01ee2099a946bf77e4a6806e"
+    "revision": "cf67f2d5d107e9b5196f2688fb0a06ac"
   },
   {
     "url": "posts/git/git-commit-amend-date.html",
-    "revision": "f56463ba18a7ba33162a58bb4b6d231e"
+    "revision": "936921527b1ba84a83e0cd560004c0bd"
   },
   {
     "url": "posts/git/git-default-editor.html",
-    "revision": "74c44f61a1aa5452559a707ef8aa64b8"
+    "revision": "ddd64062248ce0751d37da181eb0a4f3"
   },
   {
     "url": "posts/git/Git-ignore-file-permission-changes.html",
-    "revision": "0977d1925d050ba4e63ea7f216ee6885"
+    "revision": "fa3ef037b8478336a5f5784d0f73bf4a"
   },
   {
     "url": "posts/hackintosh/DSDT-SSDT-battery.html",
-    "revision": "c37250ebf2dc5c4b4a25937b53ef5253"
+    "revision": "43c05d76423c5aec0acd52a7416d58a5"
   },
   {
     "url": "posts/hackintosh/hotpatch-fn-brightness.html",
-    "revision": "9168838b90addcc3f7dafb9ec297bcd2"
+    "revision": "239e3fad14b0f15c59c40aae7788c4ce"
   },
   {
     "url": "posts/hackintosh/ShinalonYAO7000-hackintosh.html",
-    "revision": "4e28a1702278bdd63c487a91b0778244"
+    "revision": "ef0155fcd7ee01a1db391eb383ef1b87"
   },
   {
     "url": "posts/java/idea-remote-debug.html",
-    "revision": "6df3b82bc9f37ef2cffb5def15c14239"
+    "revision": "5609ab53c246c7426316e9689fb1f693"
   },
   {
     "url": "posts/java/java-http-proxy.html",
-    "revision": "e89f4edd7c3fd36b8bf3d3e6ad48a70b"
+    "revision": "1ad293ded4796a8fcf65c9a3088af016"
   },
   {
     "url": "posts/java/java-JacksonUtil.html",
-    "revision": "3cc8f9b2bb65d7bfc50751e82650f918"
+    "revision": "156f5ca89f4c68f151e1412b57bd9cc8"
   },
   {
     "url": "posts/java/java-Pinyin4jUtil.html",
-    "revision": "bbdb64f141ec262315a57bbc4b03a21a"
+    "revision": "65b617e2a2b1d27fb7d2c27c0030262c"
   },
   {
     "url": "posts/java/java-spring-MyBatis-Annotation.html",
-    "revision": "9fa23af7b353a1caa82e624d613fd509"
+    "revision": "cd97421ce580448783f2fa5645b251c6"
   },
   {
     "url": "posts/java/java-Tetris.html",
-    "revision": "4d6d5aee855afe5bf51e1610e14cad43"
+    "revision": "477979b29e428ee1585124bc3e573dda"
   },
   {
     "url": "posts/java/spring-boot-webflux-cors.html",
-    "revision": "5a8386a634d47804e47faa52f821b7cf"
+    "revision": "a73a34779927d8583c63b33b11b087bf"
   },
   {
     "url": "posts/java/spring-RedisTemplate.html",
-    "revision": "757f285fe00df435a0c232d4af61f41a"
+    "revision": "6081dea9b06ab39ab309e4e17ec12358"
   },
   {
     "url": "posts/java/springboot-disable-autoconfig.html",
-    "revision": "c5dbc0bba0ef8df187670bf5f9bb8ab2"
+    "revision": "e303bef25bdba9a0bd99ea5d9599e1f1"
   },
   {
     "url": "posts/java/springboot-schedule-task.html",
-    "revision": "073729e47e529d3d3f02f1b61807a15d"
+    "revision": "a25823c8ede529d2ceea10684423855f"
   },
   {
     "url": "posts/java/springboot-swagger-ui-custom-config.html",
-    "revision": "889a20ecd62d4611e281276595d39d59"
+    "revision": "3e3e229b3e176fc2d69261cc00df13c1"
   },
   {
     "url": "posts/java/TOTP.html",
-    "revision": "be64d4702f9aab449a6c4bea7b11ca48"
+    "revision": "25c54dcf605d8d7119761d8d3d2ad111"
   },
   {
     "url": "posts/linux/linux-chm2html.html",
-    "revision": "2ea04bd67898c15c6912bcbe6af00cfc"
+    "revision": "a02ed9f056a7fced7623aac91747d4b7"
   },
   {
     "url": "posts/linux/linux-ecs.html",
-    "revision": "7eae20e15ddf4043725eb3564f5736a7"
+    "revision": "307361fe22f85b3107ccdea09befdc68"
   },
   {
     "url": "posts/linux/Linux-ssr.html",
-    "revision": "e96e66d4e3cdca4b9826b707c3e755bf"
+    "revision": "549ad43192a6aaada5e40b96e2878ddb"
   },
   {
     "url": "posts/linux/nginx-Access-Control-Allow-Origin.html",
-    "revision": "8633dcf8433959bccd1e8002968e9df1"
+    "revision": "533116269a70c9a3aee1edd8f1ca1130"
   },
   {
     "url": "posts/linux/nginx-upstream.html",
-    "revision": "750179909e6d70ca952da9c18404e442"
+    "revision": "6ba0f609d780478a8d267b8a499e5c72"
   },
   {
     "url": "posts/linux/offline-install-oh-my-zsh.html",
-    "revision": "0dbae828967c1783780a59b0532acb82"
+    "revision": "f5fe401a5527382f97e334ff801467d3"
   },
   {
     "url": "posts/linux/Windows10-using-vscode-run-odoo12-in-wsl.html",
-    "revision": "846308415e0ec4dbfa7167e337327e87"
+    "revision": "2b507957d3f4517915208c3829cbb4a3"
   },
   {
     "url": "posts/linux/wsl-linux-custom-install.html",
-    "revision": "3549acbdb4a0770fa363b278d4ac8336"
+    "revision": "9b1c782789791e6690194ac62df12af1"
   },
   {
     "url": "posts/linux/xampp-building-a-website.html",
-    "revision": "67ae39a66e586198bfd86124d8642ec6"
+    "revision": "008b6ceccbfee5f537d7a662df428489"
   },
   {
     "url": "posts/macos/Brew-cask-install-software.html",
-    "revision": "cc0516bbb398bb2b4ea059f138cbfcd9"
+    "revision": "aac193ab8d3f93f70d8a72d20d4d9a6f"
   },
   {
     "url": "posts/mq/ensure-not-repeatedly-consumed.html",
-    "revision": "6b178f31f1af1106ec84298287401cad"
+    "revision": "49ec4966a38cb02b7a67a2296d1ab5ae"
   },
   {
     "url": "posts/mq/ensure-order-of-mq.html",
-    "revision": "74f339a366a6a345399411c54b34427f"
+    "revision": "2167bfd06fee30ea104fad34a3555d3a"
   },
   {
     "url": "posts/mq/high-availability-of-mq.html",
-    "revision": "e09250c1b5bbebcddfd90c357649ef5a"
+    "revision": "8e8dd39b663ba0d9c7b9dcf226102533"
   },
   {
     "url": "posts/mq/mq-problems.html",
-    "revision": "88021b9393567f6d22a8712296381374"
+    "revision": "d608931e46715cf0aca003e769514603"
   },
   {
     "url": "posts/mq/why-mq.html",
-    "revision": "46923500564ea35c6c52cd3d0319277a"
+    "revision": "d83d020b6641e580d2505de07cea497f"
   },
   {
     "url": "posts/odoo/Odoo-api-decorators.html",
-    "revision": "352c8194fb551a3015ceda383ffed31e"
+    "revision": "03178972d88d917217e2a37a8dda5da2"
   },
   {
     "url": "posts/odoo/Odoo-api-onchange.html",
-    "revision": "e2cff5690a7ccaf8a49d3e85989819a4"
+    "revision": "41dcdfbf62b26ba089a5672d2659f8de"
   },
   {
     "url": "posts/odoo/Odoo-building-a-new-model.html",
-    "revision": "24c339ac2c3fce9b9fe3a29b8a29d746"
+    "revision": "5abdb002f78fdc6b89b868d2526f0fed"
   },
   {
     "url": "posts/odoo/Odoo-Challenge.html",
-    "revision": "332d41a3a165b3dc6e7cf74f16b09540"
+    "revision": "850fcb149528ed89cdd822670df868dd"
   },
   {
     "url": "posts/odoo/Odoo-class-Many2many.html",
-    "revision": "3dea971f2839ff3ec6850dbedc6da641"
+    "revision": "8a74a02dc59d3b0bfb53bf62f191959a"
   },
   {
     "url": "posts/odoo/Odoo-class-o-row.html",
-    "revision": "9265844613cdd02bf0aeb20b88162487"
+    "revision": "e0fe5004c3ffdb8797a943fecf1b59d3"
   },
   {
     "url": "posts/odoo/Odoo-context.html",
-    "revision": "4549f6e97c98066d6d3c1bf99a115ce1"
+    "revision": "4ab14b5559a52d76a508a9757c7fa932"
   },
   {
     "url": "posts/odoo/Odoo-Controllers-requests.html",
-    "revision": "3148bc850bbe9b9d5c99e515baaef493"
+    "revision": "937027d5b41aad20d0ab18fda4f88e4b"
   },
   {
     "url": "posts/odoo/Odoo-Controllers-Website.html",
-    "revision": "2a202f7a29d7b1680b4b884d7b50ca27"
+    "revision": "175978ced7df70bf2c85954358ef35fd"
   },
   {
     "url": "posts/odoo/Odoo-domain-in.html",
-    "revision": "0dd5ea1960d611e42d0eca37fe63b524"
+    "revision": "044ba235a2b05e8562c5525712c9a335"
   },
   {
     "url": "posts/odoo/Odoo-Domain.html",
-    "revision": "f10227edee4939e3b452eda27d7bc466"
+    "revision": "152e12852af389bbf22afad9fce0e4a0"
   },
   {
     "url": "posts/odoo/Odoo-external-api.html",
-    "revision": "144faae78f1b68ace89f5e95fd80dfa6"
+    "revision": "218744189171fffb22c87945123c2ff1"
   },
   {
     "url": "posts/odoo/Odoo-fields.html",
-    "revision": "973eadf923ee88b33d8dcdcd4f0a10df"
+    "revision": "03e0e96f8a9c10c0fc1e0a190e893a79"
   },
   {
     "url": "posts/odoo/Odoo-Form-add-button-statusbar.html",
-    "revision": "0bee1e83e997dc10240d72f317389629"
+    "revision": "94b239ebeda08d4c6eea49dbe33041a0"
   },
   {
     "url": "posts/odoo/odoo-func-env-context.html",
-    "revision": "0240262244c6f2551fa6a1a5023deb65"
+    "revision": "376b9786aa39768debb5f2f0161d255b"
   },
   {
     "url": "posts/odoo/Odoo-inherit-inherits-delegate.html",
-    "revision": "506a9db65469424c560371185287b158"
+    "revision": "f7c439c30cd699154c74a8e13b02c72f"
   },
   {
     "url": "posts/odoo/Odoo-ir-actions-server.html",
-    "revision": "466783d9d8de3703f554bb3840f91841"
+    "revision": "093a5fe570fce99a6bc07277d01752a3"
   },
   {
     "url": "posts/odoo/Odoo-ir-cron.html",
-    "revision": "c4c89541ecd8357c67fc4598c50e9180"
+    "revision": "cae58241494d128c99128a268cd4a299"
   },
   {
     "url": "posts/odoo/Odoo-ir-rule.html",
-    "revision": "755858f1ae223489426133c8cfbc754b"
+    "revision": "60282503fc851e41c4302fc6220bf777"
   },
   {
     "url": "posts/odoo/Odoo-ir-sequence.html",
-    "revision": "9d35169a81dbc93779b041eeda4b5b04"
+    "revision": "023a4aacf367929f5be90fb591e85ef9"
   },
   {
     "url": "posts/odoo/Odoo-mail-message.html",
-    "revision": "5a1307ff3d4f27a2d48c0e5656858c4b"
+    "revision": "78d51b9cc46ea6c8604e44080f7e32e1"
   },
   {
     "url": "posts/odoo/Odoo-many2one-hide-create.html",
-    "revision": "7c164adae95638d4dff5260c16b7f832"
+    "revision": "c7b85f57d5c152d767be5506c9ee6ba1"
   },
   {
     "url": "posts/odoo/Odoo-Many2one-three-level-domain.html",
-    "revision": "4882149c86254b431dc59921de69d1d6"
+    "revision": "fba6f988d368b65528de120dfbd25a0d"
   },
   {
     "url": "posts/odoo/Odoo-model-inherit-xpath.html",
-    "revision": "7357c3b348bf58419ab6d0dd78bf9e84"
+    "revision": "cc57424ae1193ddfa1359015d9fef4ce"
   },
   {
     "url": "posts/odoo/Odoo-models-AbstractModel.html",
-    "revision": "f144aa3cf6cae302279588b0adfbdc32"
+    "revision": "8ccd5df737cbf07df73e6f3ea73aeacc"
   },
   {
     "url": "posts/odoo/Odoo-odoo13-searchpanel.html",
-    "revision": "63804107687866bee1c38d0c5c3dc01c"
+    "revision": "60c8dde2b57159616171b2c8201ccb74"
   },
   {
     "url": "posts/odoo/Odoo-one2many-many2many-write-rule.html",
-    "revision": "86047ac6595f0ce5c4b8ba9f756374ca"
+    "revision": "5345ea9dc62231cf5af9016fb7e8f262"
   },
   {
     "url": "posts/odoo/Odoo-Order.html",
-    "revision": "1cd83311edfeb5355435fb6181e6e91c"
+    "revision": "6920efcdb208ab9d0ac33e9adce0665b"
   },
   {
     "url": "posts/odoo/Odoo-profile.html",
-    "revision": "a09ae2b1cb97a6a2d7cf8910939835c9"
+    "revision": "87334145eef39d8d081ff78195ab607a"
   },
   {
     "url": "posts/odoo/Odoo-search-view.html",
-    "revision": "dd5ce530f84ddc3246504088786be9e4"
+    "revision": "9065f1d348c6a4ef47b352c1d08bc3c5"
   },
   {
     "url": "posts/odoo/Odoo-Settings.html",
-    "revision": "17d129f1b3c9c903e6268ab644fb2ca1"
+    "revision": "8c5e988a2f6fa46d8eef9ff307a4b56a"
   },
   {
     "url": "posts/odoo/Odoo-Translation.html",
-    "revision": "2588578cd2bf9645935de030e1599202"
+    "revision": "b2a596fcc4a67caa61f30031d279ac24"
   },
   {
     "url": "posts/odoo/Odoo-xml-group-col-colspan.html",
-    "revision": "9b174f6d146f9420cf28060265746361"
+    "revision": "3d622fce1108c6314b93c9836a995209"
   },
   {
     "url": "posts/odoo/Odoo-xml-invisible.html",
-    "revision": "e20bac6b88fa063b47f3204c28ddeeae"
+    "revision": "aece20aec27598f00b38d1f753e3dacd"
   },
   {
     "url": "posts/odoo/Run-odoo-in-docker-code-server.html",
-    "revision": "885ead551afd83efd30335e023462561"
+    "revision": "d032bff8ffdea7eff383dcadf60ab7d0"
   },
   {
     "url": "posts/odoo/Run-Odoo-in-Windows-WSL.html",
-    "revision": "90f10a81548559705e97dea0997d73ee"
+    "revision": "b1c6f54ca2f99d8986ff79661abdaa35"
   },
   {
     "url": "posts/other/hexo-live2d.html",
-    "revision": "654f167cb3b34afc8a49d942ee70dd9b"
+    "revision": "fb81883212183387f0c41722bf4e04fe"
   },
   {
     "url": "posts/other/Install-font-source-code-pro.html",
-    "revision": "fc42986a07c9c9ecd24fadae6962325a"
+    "revision": "8ee9fcafa73ba7e7c541b5c2234702b9"
   },
   {
     "url": "posts/other/mipad2-win10-block-keys.html",
-    "revision": "5ddc0781999d99a7b7171f932b391e67"
+    "revision": "8144c24916c0306ac3d75c4c0120e8bc"
   },
   {
     "url": "posts/python/asyncio-run-in-executor.html",
-    "revision": "8ec1902c0efbf479a04d01247060c7ae"
+    "revision": "0a4264416c8f63b4fc6830c3edb337e0"
+  },
+  {
+    "url": "posts/python/deadlock.html",
+    "revision": "f7a2594468ff98664a779b512b712d4d"
   },
   {
     "url": "posts/python/python-bitwise-operation.html",
-    "revision": "f8c3927d147347b4d756e2bda2050f00"
+    "revision": "ca6c968fcefab7d7c92a724e50b7dabf"
   },
   {
     "url": "posts/python/python-class-self-and-cls.html",
-    "revision": "7a1d4a427a69820b3e2f1374caff2e48"
+    "revision": "dcbaf02c87bd3fd3aed2d6dd437eb81c"
   },
   {
     "url": "posts/python/python-dynamic-import.html",
-    "revision": "6df68dad13240fe18d7d98b4f53cf02c"
+    "revision": "87f424cae105dbfd87e46368462afe49"
   },
   {
     "url": "posts/python/Python-locals.html",
-    "revision": "d9205030eb3cba5525ae5ef22fb62874"
+    "revision": "0ea5f77cb701436492f0b1d3d343add3"
   },
   {
     "url": "posts/python/python-metaclass.html",
-    "revision": "952440e094fac8888f0d39a151d3109f"
+    "revision": "6aafac5e42be97ed9264fbea85b89d1a"
   },
   {
     "url": "posts/python/Python-sorted.html",
-    "revision": "120dd888d79cea32288d86c883320785"
+    "revision": "3bf389245b7fc963719b608a47fdf867"
   },
   {
     "url": "posts/python/Python3-mro-class.html",
-    "revision": "e0a8367825db5baa8a2fc10ce0bb23b5"
+    "revision": "671cfd1b3bb05fc9340e9d4cc1be7bd9"
   },
   {
     "url": "posts/python/timeit-Measure-execution-time.html",
-    "revision": "afdcb609fe091ea240cf11db74b6fc56"
+    "revision": "b28d0338bf82134995a5c7f3e7a49352"
   },
   {
     "url": "posts/python/whats-new-in-python3-8.html",
-    "revision": "c2a0a7de1a9f5dafd3dfb3b28da081a9"
+    "revision": "26e3f7d34c7366d85005edf53e3ef7dc"
   },
   {
     "url": "posts/redis/fast-redis-zset.html",
-    "revision": "a469f9f07ad2c10f456552a2be69e63b"
+    "revision": "a7743c38a2c6f2ca9ca63683af5cbdfb"
   },
   {
     "url": "tag/api/index.html",
-    "revision": "c9229f6c96373d329d5af28c9735a3f9"
+    "revision": "93a6be91afb10514956a227a4f6aac52"
   },
   {
     "url": "tag/code-server/index.html",
-    "revision": "1ba6d028d86807a0f13b7e90e37f7938"
+    "revision": "1a100daa7d5403d0ab40c5959e9d0f35"
   },
   {
     "url": "tag/context/index.html",
-    "revision": "2e549af05c9b085e764b63d12b4ea962"
+    "revision": "e2845e1e79057350100e11ed7379606b"
   },
   {
     "url": "tag/database/index.html",
-    "revision": "4ca5b12a42f19db3f01d4bcf1affd925"
+    "revision": "951412983c74e9843529da73c90691e0"
   },
   {
     "url": "tag/docker/index.html",
-    "revision": "1c6457d0599e34912a1eef313a0e66a5"
+    "revision": "b6d25f52f38131e9fd79ac5c73bc0bfb"
   },
   {
     "url": "tag/git/index.html",
-    "revision": "4fefab9d2bf635175668956ebfd178ed"
+    "revision": "f379a66947cbc2d55c12b1174bfedbcc"
   },
   {
     "url": "tag/hackintosh/index.html",
-    "revision": "93eef67b838e4c8f0c9b964afb7b7b12"
+    "revision": "83307da703070ed555790a9d1ffe9f08"
   },
   {
     "url": "tag/hexo/index.html",
-    "revision": "9662fb4db5774ec3e9a488e54231762d"
+    "revision": "bda5b8f4f1734aeaa5302fc7c375b86c"
   },
   {
     "url": "tag/index.html",
-    "revision": "0d521ddffbd9838aaa1f1d7afd77df87"
+    "revision": "a20b39a261af957586615f9f29b676ff"
   },
   {
     "url": "tag/java/index.html",
-    "revision": "03708a3c7a809069c997443aab125e47"
+    "revision": "4d96be91693254028adbe302fc8a45d0"
   },
   {
     "url": "tag/java/page/2/index.html",
-    "revision": "6e1e1869f3a5f8425512fc4ba90cdb41"
+    "revision": "6385f2acb989a2b4bc75920c4f94f8a9"
   },
   {
     "url": "tag/linux/index.html",
-    "revision": "1181ac4ca82537c91bc31e29d62ede31"
+    "revision": "3ea35783abb17911c41b9061e5ba2db7"
   },
   {
     "url": "tag/mail/index.html",
-    "revision": "ef5487abfaaa063626fb6fb4742bc37e"
+    "revision": "ccf12a1067a126f35f9f3e63c617e3d3"
   },
   {
     "url": "tag/many2many/index.html",
-    "revision": "ae190a27fe006ebc59d24f3960cc5bf1"
+    "revision": "f77928adadfa5abc5e7f2abd9150e448"
   },
   {
     "url": "tag/many2one/index.html",
-    "revision": "00056572d492bcf093fc3776ff87deba"
+    "revision": "f1c4b2dcd34385173530224cc01bf510"
   },
   {
     "url": "tag/mq/index.html",
-    "revision": "c6baede8a179a0b1d6b0d9bb01d51bc0"
+    "revision": "6717303c83fcded770f9facaf98a288f"
   },
   {
     "url": "tag/nginx/index.html",
-    "revision": "cd8c06c09152ade886cfb9150bb1f0db"
+    "revision": "db219dc5657b091614b50aead4f78625"
   },
   {
     "url": "tag/odoo/index.html",
-    "revision": "163e6a7b478eef22ff528919c5a06d8a"
+    "revision": "151689fb46b44d985345a982b6ec9322"
   },
   {
     "url": "tag/odoo/page/2/index.html",
-    "revision": "6598544b0e64391a46269c936130e5e3"
+    "revision": "a1aac6d88f9fc056e602a68c30ca3160"
   },
   {
     "url": "tag/odoo/page/3/index.html",
-    "revision": "ab670acae2c99ade0ee361f7fcfa462b"
+    "revision": "e6448485b6810a11ebf3a625abbe0e8e"
   },
   {
     "url": "tag/odoo/page/4/index.html",
-    "revision": "a742a3d6d38dca2a496c3d85e709f3c8"
+    "revision": "a9046857c06eefde52831f5cd6e3898f"
   },
   {
     "url": "tag/onchange/index.html",
-    "revision": "844f210709f4ec2c1d025c77d0bf07fe"
+    "revision": "ba02adfbb83f841b23291632342add56"
   },
   {
     "url": "tag/one2many/index.html",
-    "revision": "ecc2060e73a3361158ea95e51630ca41"
+    "revision": "dc03b0bab7d870c28dd19a8c087e499e"
   },
   {
     "url": "tag/python/index.html",
-    "revision": "6a3a610b7f1aa4fe998f51f5587c2533"
+    "revision": "8cfe7d7cace568c19d249540f0de5504"
+  },
+  {
+    "url": "tag/python/page/2/index.html",
+    "revision": "5c40dcd30de77b55c8ef93791a9c23f4"
   },
   {
     "url": "tag/redis/index.html",
-    "revision": "62ba126d1a467f1d2a37eab6a9d0f7d0"
+    "revision": "d5ed9fb790aefe70ac34951bd1b612a4"
   },
   {
     "url": "tag/spring/index.html",
-    "revision": "ed3eeaf23d372366d6de8c8c3b28433d"
+    "revision": "e08ff7860831ea2f51a8c1c7c7f1386b"
   },
   {
     "url": "tag/ssr/index.html",
-    "revision": "4d2d49ea6dd8b3973dd2ac5ffdb40bd6"
+    "revision": "12c72e09b18f3bbd6afdad70977a7b7b"
   },
   {
     "url": "tag/vue/index.html",
-    "revision": "36538a1c0bc4951617dd0a312ec84708"
+    "revision": "a96b03327f4ce8bfe6bfc17dde492618"
   },
   {
     "url": "tag/vuepress/index.html",
-    "revision": "cfd87f735fbfb5515702eb08812345f8"
+    "revision": "49e5bac25d0e7fd24df2677b5aa6d22f"
   },
   {
     "url": "tag/wsl/index.html",
-    "revision": "031f5d21257051657a315841e85b2ea3"
+    "revision": "8609142927ed2beed5a3893f2b152574"
   },
   {
     "url": "tag/xampp/index.html",
-    "revision": "146f940ae0ea7480f521cfd4dccf8303"
+    "revision": "0af141e43275373ae4f4f06a9b7a1a12"
   },
   {
     "url": "tag/yarn/index.html",
-    "revision": "d7562de1326a6a9251d8359a07236b19"
+    "revision": "117c75042eba0fc4df11fc870d1f21da"
   },
   {
     "url": "tag/酸酸乳/index.html",
-    "revision": "d717a042a45b3e9747e2f3747439447f"
+    "revision": "f1f97a26b4864c01e094f0410df74c26"
   },
   {
     "url": "timeline/index.html",
-    "revision": "3ede0e07ec0eb3d36bb30f16219a34e8"
+    "revision": "c3f96c5caa2ac3b2f23e81bb9ed8b2fc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

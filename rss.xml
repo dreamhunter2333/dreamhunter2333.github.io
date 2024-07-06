@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Dreamhunter Blog</title>
+        <link>https://dreamhunter2333.com</link>
+        <description>Dreamhunter Blog</description>
+        <lastBuildDate>Sat, 06 Jul 2024 07:14:47 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <copyright>Copyright © 2019-至今 DreamHunter</copyright>
+        <item>
+            <title><![CDATA[为 ESP32-CAM 编译支持 camera 的 MicroPython 固件]]></title>
+            <link>https://dreamhunter2333.com/posts/micropython/esp32-cam.html</link>
+            <guid>https://dreamhunter2333.com/posts/micropython/esp32-cam.html</guid>
+            <pubDate>Thu, 04 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[年轻人的第一个 Rust WebAssembly 项目 for Vue and Cloudflare Workers]]></title>
+            <link>https://dreamhunter2333.com/posts/frontend/rust-wasm.html</link>
+            <guid>https://dreamhunter2333.com/posts/frontend/rust-wasm.html</guid>
+            <pubDate>Sat, 04 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[一种基于浏览器，绕过各种限制的调用网站后台 api 的方法]]></title>
+            <link>https://dreamhunter2333.com/posts/crawler/bypass-website-call-backend-api.html</link>
+            <guid>https://dreamhunter2333.com/posts/crawler/bypass-website-call-backend-api.html</guid>
+            <pubDate>Sat, 22 Apr 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mkcert 本地测试 https]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/mkcert.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/mkcert.html</guid>
+            <pubDate>Thu, 15 Dec 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[iwpriv-DisConnectSta]]></title>
+            <link>https://dreamhunter2333.com/posts/router/iwpriv-DisConnectSta.html</link>
+            <guid>https://dreamhunter2333.com/posts/router/iwpriv-DisConnectSta.html</guid>
+            <pubDate>Tue, 11 Oct 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Wake-on-LAN]]></title>
+            <link>https://dreamhunter2333.com/posts/router/wake-on-lan.html</link>
+            <guid>https://dreamhunter2333.com/posts/router/wake-on-lan.html</guid>
+            <pubDate>Mon, 10 Oct 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[设置端口转发(dmz)和端口映射(UPnP)]]></title>
+            <link>https://dreamhunter2333.com/posts/router/set-dmz-and-UPnP.html</link>
+            <guid>https://dreamhunter2333.com/posts/router/set-dmz-and-UPnP.html</guid>
+            <pubDate>Sun, 09 Oct 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ansible deploy docker-compose services]]></title>
+            <link>https://dreamhunter2333.com/posts/devops/ansible-deploy-docker-compose-service.html</link>
+            <guid>https://dreamhunter2333.com/posts/devops/ansible-deploy-docker-compose-service.html</guid>
+            <pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[locust 压测]]></title>
+            <link>https://dreamhunter2333.com/posts/python/locust.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/locust.html</guid>
+            <pubDate>Mon, 11 Jul 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[爱奇艺弹幕 下载 解析 转换]]></title>
+            <link>https://dreamhunter2333.com/posts/other/iqiyi-danmu-convert.html</link>
+            <guid>https://dreamhunter2333.com/posts/other/iqiyi-danmu-convert.html</guid>
+            <pubDate>Sun, 03 Apr 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[aria2 替代迅雷]]></title>
+            <link>https://dreamhunter2333.com/posts/other/aria2-replace-thunder.html</link>
+            <guid>https://dreamhunter2333.com/posts/other/aria2-replace-thunder.html</guid>
+            <pubDate>Sun, 20 Feb 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[wsl2 docker compact vdisk]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/wsl2-and-docker-compact-vdisk.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/wsl2-and-docker-compact-vdisk.html</guid>
+            <pubDate>Wed, 16 Feb 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Normal Errors]]></title>
+            <link>https://dreamhunter2333.com/posts/python/normal-errors.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/normal-errors.html</guid>
+            <pubDate>Fri, 21 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Install ubuntu with xrdp in termux]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/install-ubuntu-with-xrdp-in-termux.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/install-ubuntu-with-xrdp-in-termux.html</guid>
+            <pubDate>Tue, 28 Dec 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[android emulator]]></title>
+            <link>https://dreamhunter2333.com/posts/macos/android-emulator.html</link>
+            <guid>https://dreamhunter2333.com/posts/macos/android-emulator.html</guid>
+            <pubDate>Wed, 15 Dec 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ubuntu 使用阿里云软件源]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/ubuntu-switch-sources.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/ubuntu-switch-sources.html</guid>
+            <pubDate>Sun, 12 Dec 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[docker 部署 trojan-go acme nginx 自动申请证书]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/docker-nginx-acme-trojan-go.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/docker-nginx-acme-trojan-go.html</guid>
+            <pubDate>Sun, 12 Dec 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Use multi access token]]></title>
+            <link>https://dreamhunter2333.com/posts/git/use-multi-access-token.html</link>
+            <guid>https://dreamhunter2333.com/posts/git/use-multi-access-token.html</guid>
+            <pubDate>Sat, 13 Nov 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[wsl2 使用 Windows ip]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/wsl2-use-winip.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/wsl2-use-winip.html</guid>
+            <pubDate>Sun, 11 Jul 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[wsl2 安装 和 ssh xrdp 端口转发]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/wsl2-install.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/wsl2-install.html</guid>
+            <pubDate>Sun, 11 Jul 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[redis 快的原因]]></title>
+            <link>https://dreamhunter2333.com/posts/database/why-redis-fast.html</link>
+            <guid>https://dreamhunter2333.com/posts/database/why-redis-fast.html</guid>
+            <pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mysql 关键字执行顺序]]></title>
+            <link>https://dreamhunter2333.com/posts/database/SQL-keyword-order.html</link>
+            <guid>https://dreamhunter2333.com/posts/database/SQL-keyword-order.html</guid>
+            <pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[https 的握手过程]]></title>
+            <link>https://dreamhunter2333.com/posts/http/https-shakehand.html</link>
+            <guid>https://dreamhunter2333.com/posts/http/https-shakehand.html</guid>
+            <pubDate>Mon, 24 May 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[四种遍历二叉树]]></title>
+            <link>https://dreamhunter2333.com/posts/algorithm/traversing-binary-tree.html</link>
+            <guid>https://dreamhunter2333.com/posts/algorithm/traversing-binary-tree.html</guid>
+            <pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[互斥锁实现一个死锁]]></title>
+            <link>https://dreamhunter2333.com/posts/python/deadlock.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/deadlock.html</guid>
+            <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Python metaclass]]></title>
+            <link>https://dreamhunter2333.com/posts/python/python-metaclass.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/python-metaclass.html</guid>
+            <pubDate>Tue, 04 May 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Python Dynamic Import]]></title>
+            <link>https://dreamhunter2333.com/posts/python/python-dynamic-import.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/python-dynamic-import.html</guid>
+            <pubDate>Tue, 04 May 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[基于时间的一次性密码算法]]></title>
+            <link>https://dreamhunter2333.com/posts/java/TOTP.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/TOTP.html</guid>
+            <pubDate>Wed, 21 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[linux chm 文件 转换为 html 文件]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/linux-chm2html.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/linux-chm2html.html</guid>
+            <pubDate>Fri, 16 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[docker 容器访问主机]]></title>
+            <link>https://dreamhunter2333.com/posts/docker/docker-host.html</link>
+            <guid>https://dreamhunter2333.com/posts/docker/docker-host.html</guid>
+            <pubDate>Fri, 16 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[springboot swagger3 自定义配置]]></title>
+            <link>https://dreamhunter2333.com/posts/java/springboot-swagger-ui-custom-config.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/springboot-swagger-ui-custom-config.html</guid>
+            <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[springboot 禁用自动配置]]></title>
+            <link>https://dreamhunter2333.com/posts/java/springboot-disable-autoconfig.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/springboot-disable-autoconfig.html</guid>
+            <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[java spring WebClient 代理访问]]></title>
+            <link>https://dreamhunter2333.com/posts/java/java-http-proxy.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/java-http-proxy.html</guid>
+            <pubDate>Wed, 24 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[消息队列常见问题]]></title>
+            <link>https://dreamhunter2333.com/posts/mq/mq-problems.html</link>
+            <guid>https://dreamhunter2333.com/posts/mq/mq-problems.html</guid>
+            <pubDate>Wed, 17 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[保证消息的顺序性]]></title>
+            <link>https://dreamhunter2333.com/posts/mq/ensure-order-of-mq.html</link>
+            <guid>https://dreamhunter2333.com/posts/mq/ensure-order-of-mq.html</guid>
+            <pubDate>Wed, 17 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[保证消息消费的幂等性]]></title>
+            <link>https://dreamhunter2333.com/posts/mq/ensure-not-repeatedly-consumed.html</link>
+            <guid>https://dreamhunter2333.com/posts/mq/ensure-not-repeatedly-consumed.html</guid>
+            <pubDate>Wed, 17 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[消息队列的高可用]]></title>
+            <link>https://dreamhunter2333.com/posts/mq/high-availability-of-mq.html</link>
+            <guid>https://dreamhunter2333.com/posts/mq/high-availability-of-mq.html</guid>
+            <pubDate>Tue, 16 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[为什么使用消息队列]]></title>
+            <link>https://dreamhunter2333.com/posts/mq/why-mq.html</link>
+            <guid>https://dreamhunter2333.com/posts/mq/why-mq.html</guid>
+            <pubDate>Sun, 14 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[从零用云服务器搭建一个网站]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/linux-ecs.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/linux-ecs.html</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SpringBoot 创建定时任务]]></title>
+            <link>https://dreamhunter2333.com/posts/java/springboot-schedule-task.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/springboot-schedule-task.html</guid>
+            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Java Spring MyBatis 注解]]></title>
+            <link>https://dreamhunter2333.com/posts/java/java-spring-MyBatis-Annotation.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/java-spring-MyBatis-Annotation.html</guid>
+            <pubDate>Wed, 24 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[java 用位运算写一个俄罗斯方块]]></title>
+            <link>https://dreamhunter2333.com/posts/java/java-Tetris.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/java-Tetris.html</guid>
+            <pubDate>Fri, 12 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Spring RedisTemplate]]></title>
+            <link>https://dreamhunter2333.com/posts/java/spring-RedisTemplate.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/spring-RedisTemplate.html</guid>
+            <pubDate>Thu, 28 Jan 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vuepress Blog]]></title>
+            <link>https://dreamhunter2333.com/posts/frontend/vuepress-blog.html</link>
+            <guid>https://dreamhunter2333.com/posts/frontend/vuepress-blog.html</guid>
+            <pubDate>Sun, 24 Jan 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[docker-compose hosts 参数]]></title>
+            <link>https://dreamhunter2333.com/posts/docker/docker-compose-hosts.html</link>
+            <guid>https://dreamhunter2333.com/posts/docker/docker-compose-hosts.html</guid>
+            <pubDate>Sun, 24 Jan 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[idea 远程调试]]></title>
+            <link>https://dreamhunter2333.com/posts/java/idea-remote-debug.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/idea-remote-debug.html</guid>
+            <pubDate>Sat, 23 Jan 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[asyncio run in executor]]></title>
+            <link>https://dreamhunter2333.com/posts/python/asyncio-run-in-executor.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/asyncio-run-in-executor.html</guid>
+            <pubDate>Tue, 05 Jan 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[java JacksonUtil]]></title>
+            <link>https://dreamhunter2333.com/posts/java/java-JacksonUtil.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/java-JacksonUtil.html</guid>
+            <pubDate>Wed, 30 Dec 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[java Pinyin4jUtil]]></title>
+            <link>https://dreamhunter2333.com/posts/java/java-Pinyin4jUtil.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/java-Pinyin4jUtil.html</guid>
+            <pubDate>Sun, 20 Dec 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[spring boot webflux cors]]></title>
+            <link>https://dreamhunter2333.com/posts/java/spring-boot-webflux-cors.html</link>
+            <guid>https://dreamhunter2333.com/posts/java/spring-boot-webflux-cors.html</guid>
+            <pubDate>Thu, 10 Dec 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fast redis zset]]></title>
+            <link>https://dreamhunter2333.com/posts/redis/fast-redis-zset.html</link>
+            <guid>https://dreamhunter2333.com/posts/redis/fast-redis-zset.html</guid>
+            <pubDate>Wed, 25 Nov 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nginx Access-Control-Allow-Origin]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/nginx-Access-Control-Allow-Origin.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/nginx-Access-Control-Allow-Origin.html</guid>
+            <pubDate>Fri, 20 Nov 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nginx upstream]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/nginx-upstream.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/nginx-upstream.html</guid>
+            <pubDate>Tue, 10 Nov 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Git 切换默认编辑器]]></title>
+            <link>https://dreamhunter2333.com/posts/git/git-default-editor.html</link>
+            <guid>https://dreamhunter2333.com/posts/git/git-default-editor.html</guid>
+            <pubDate>Sat, 27 Jun 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vue init project]]></title>
+            <link>https://dreamhunter2333.com/posts/frontend/vue-init-project.html</link>
+            <guid>https://dreamhunter2333.com/posts/frontend/vue-init-project.html</guid>
+            <pubDate>Sat, 27 Jun 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intall and use yarn]]></title>
+            <link>https://dreamhunter2333.com/posts/frontend/intall-and-use-yarn.html</link>
+            <guid>https://dreamhunter2333.com/posts/frontend/intall-and-use-yarn.html</guid>
+            <pubDate>Sun, 21 Jun 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[git commit --amend --date]]></title>
+            <link>https://dreamhunter2333.com/posts/git/git-commit-amend-date.html</link>
+            <guid>https://dreamhunter2333.com/posts/git/git-commit-amend-date.html</guid>
+            <pubDate>Thu, 16 Apr 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Git-ignore-file-permission-changes]]></title>
+            <link>https://dreamhunter2333.com/posts/git/Git-ignore-file-permission-changes.html</link>
+            <guid>https://dreamhunter2333.com/posts/git/Git-ignore-file-permission-changes.html</guid>
+            <pubDate>Mon, 23 Mar 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[安装 source-code-pro 字体]]></title>
+            <link>https://dreamhunter2333.com/posts/other/Install-font-source-code-pro.html</link>
+            <guid>https://dreamhunter2333.com/posts/other/Install-font-source-code-pro.html</guid>
+            <pubDate>Sat, 21 Mar 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brew cask install software]]></title>
+            <link>https://dreamhunter2333.com/posts/macos/Brew-cask-install-software.html</link>
+            <guid>https://dreamhunter2333.com/posts/macos/Brew-cask-install-software.html</guid>
+            <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[timeit 测量小代码片段的执行时间]]></title>
+            <link>https://dreamhunter2333.com/posts/python/timeit-Measure-execution-time.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/timeit-Measure-execution-time.html</guid>
+            <pubDate>Thu, 19 Mar 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Git忽略SSL认证]]></title>
+            <link>https://dreamhunter2333.com/posts/git/Git_ignore_SSL.html</link>
+            <guid>https://dreamhunter2333.com/posts/git/Git_ignore_SSL.html</guid>
+            <pubDate>Tue, 17 Mar 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What’s New In Python 3.8]]></title>
+            <link>https://dreamhunter2333.com/posts/python/whats-new-in-python3-8.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/whats-new-in-python3-8.html</guid>
+            <pubDate>Tue, 14 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[wsl linux custom install]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/wsl-linux-custom-install.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/wsl-linux-custom-install.html</guid>
+            <pubDate>Mon, 06 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[python 位运算]]></title>
+            <link>https://dreamhunter2333.com/posts/python/python-bitwise-operation.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/python-bitwise-operation.html</guid>
+            <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Python locals()]]></title>
+            <link>https://dreamhunter2333.com/posts/python/Python-locals.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/Python-locals.html</guid>
+            <pubDate>Sun, 15 Dec 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Count code Lines by git log]]></title>
+            <link>https://dreamhunter2333.com/posts/git/Count-Lines-by-git-log.html</link>
+            <guid>https://dreamhunter2333.com/posts/git/Count-Lines-by-git-log.html</guid>
+            <pubDate>Sun, 15 Dec 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[odoo func env.context]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/odoo-func-env-context.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/odoo-func-env-context.html</guid>
+            <pubDate>Sun, 01 Dec 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Python3 mro __class__]]></title>
+            <link>https://dreamhunter2333.com/posts/python/Python3-mro-class.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/Python3-mro-class.html</guid>
+            <pubDate>Thu, 21 Nov 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo domain inverse 'in']]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-domain-in.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-domain-in.html</guid>
+            <pubDate>Sat, 16 Nov 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo context]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-context.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-context.html</guid>
+            <pubDate>Tue, 12 Nov 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[web vscode in docker]]></title>
+            <link>https://dreamhunter2333.com/posts/frontend/web-vscode.html</link>
+            <guid>https://dreamhunter2333.com/posts/frontend/web-vscode.html</guid>
+            <pubDate>Sun, 10 Nov 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Python sorted()]]></title>
+            <link>https://dreamhunter2333.com/posts/python/Python-sorted.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/Python-sorted.html</guid>
+            <pubDate>Sun, 03 Nov 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo external api]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-external-api.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-external-api.html</guid>
+            <pubDate>Fri, 01 Nov 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo @profile 性能测试]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-profile.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-profile.html</guid>
+            <pubDate>Wed, 30 Oct 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[offline install oh-my-zsh]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/offline-install-oh-my-zsh.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/offline-install-oh-my-zsh.html</guid>
+            <pubDate>Wed, 23 Oct 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SQL NULL Func]]></title>
+            <link>https://dreamhunter2333.com/posts/database/SQL-NULL-Func.html</link>
+            <guid>https://dreamhunter2333.com/posts/database/SQL-NULL-Func.html</guid>
+            <pubDate>Mon, 21 Oct 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[docker安装使用]]></title>
+            <link>https://dreamhunter2333.com/posts/docker/docker-install-use.html</link>
+            <guid>https://dreamhunter2333.com/posts/docker/docker-install-use.html</guid>
+            <pubDate>Sat, 12 Oct 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Docker rm]]></title>
+            <link>https://dreamhunter2333.com/posts/docker/Docker-rm.html</link>
+            <guid>https://dreamhunter2333.com/posts/docker/Docker-rm.html</guid>
+            <pubDate>Sat, 12 Oct 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[odoo13 searchpanel]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-odoo13-searchpanel.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-odoo13-searchpanel.html</guid>
+            <pubDate>Fri, 11 Oct 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo ir.sequence]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-ir-sequence.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-ir-sequence.html</guid>
+            <pubDate>Thu, 10 Oct 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo Translation]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-Translation.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-Translation.html</guid>
+            <pubDate>Wed, 09 Oct 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo api onchange]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-api-onchange.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-api-onchange.html</guid>
+            <pubDate>Tue, 08 Oct 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Run odoo in docker code-server]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Run-odoo-in-docker-code-server.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Run-odoo-in-docker-code-server.html</guid>
+            <pubDate>Sun, 29 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[code-server 在线编辑器 in docker]]></title>
+            <link>https://dreamhunter2333.com/posts/docker/run-code-server-in-docker.html</link>
+            <guid>https://dreamhunter2333.com/posts/docker/run-code-server-in-docker.html</guid>
+            <pubDate>Sat, 28 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo Challenge]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-Challenge.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-Challenge.html</guid>
+            <pubDate>Thu, 26 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo Controllers requests]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-Controllers-requests.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-Controllers-requests.html</guid>
+            <pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo class Many2many]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-class-Many2many.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-class-Many2many.html</guid>
+            <pubDate>Tue, 24 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo ir.actions.server]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-ir-actions-server.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-ir-actions-server.html</guid>
+            <pubDate>Mon, 23 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Windows10使用vscode利用linux子系统运行odoo12]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/Windows10-using-vscode-run-odoo12-in-wsl.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/Windows10-using-vscode-run-odoo12-in-wsl.html</guid>
+            <pubDate>Sat, 21 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo 继承]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-inherit-inherits-delegate.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-inherit-inherits-delegate.html</guid>
+            <pubDate>Mon, 16 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo class o_row]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-class-o-row.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-class-o-row.html</guid>
+            <pubDate>Tue, 10 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo Settings 界面]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-Settings.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-Settings.html</guid>
+            <pubDate>Tue, 10 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo Order 排序]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-Order.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-Order.html</guid>
+            <pubDate>Tue, 10 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo Controllers Website]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-Controllers-Website.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-Controllers-Website.html</guid>
+            <pubDate>Mon, 09 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[python类中的self参数和cls参数]]></title>
+            <link>https://dreamhunter2333.com/posts/python/python-class-self-and-cls.html</link>
+            <guid>https://dreamhunter2333.com/posts/python/python-class-self-and-cls.html</guid>
+            <pubDate>Tue, 03 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo Many2one三级联动]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-Many2one-three-level-domain.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-Many2one-three-level-domain.html</guid>
+            <pubDate>Tue, 03 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo xml group clo colspan]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-xml-group-col-colspan.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-xml-group-col-colspan.html</guid>
+            <pubDate>Thu, 29 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo models.AbstractModel]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-models-AbstractModel.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-models-AbstractModel.html</guid>
+            <pubDate>Thu, 29 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[在windows的linux子系统中运行Odoo12]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Run-Odoo-in-Windows-WSL.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Run-Odoo-in-Windows-WSL.html</guid>
+            <pubDate>Sun, 25 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo mail 消息记录]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-mail-message.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-mail-message.html</guid>
+            <pubDate>Sun, 25 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo many2one隐藏创建选项many2many不弹出编辑框]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-many2one-hide-create.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-many2one-hide-create.html</guid>
+            <pubDate>Thu, 22 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo one2many many2many 写值规则]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-one2many-many2many-write-rule.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-one2many-many2many-write-rule.html</guid>
+            <pubDate>Wed, 21 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo 模型和视图的继承、修改]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-model-inherit-xpath.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-model-inherit-xpath.html</guid>
+            <pubDate>Wed, 21 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo ir.rule 记录规则]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-ir-rule.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-ir-rule.html</guid>
+            <pubDate>Tue, 20 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo 后台定时任务]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-ir-cron.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-ir-cron.html</guid>
+            <pubDate>Tue, 20 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SQL 约束]]></title>
+            <link>https://dreamhunter2333.com/posts/database/SQL-constraints.html</link>
+            <guid>https://dreamhunter2333.com/posts/database/SQL-constraints.html</guid>
+            <pubDate>Tue, 20 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo 视图 xml invisible 属性]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-xml-invisible.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-xml-invisible.html</guid>
+            <pubDate>Mon, 19 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo @api.* 装饰器]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-api-decorators.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-api-decorators.html</guid>
+            <pubDate>Mon, 19 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SQL 基本语句]]></title>
+            <link>https://dreamhunter2333.com/posts/database/SQL-statement.html</link>
+            <guid>https://dreamhunter2333.com/posts/database/SQL-statement.html</guid>
+            <pubDate>Mon, 19 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo search 视图]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-search-view.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-search-view.html</guid>
+            <pubDate>Sun, 18 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo fields的基本字段]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-fields.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-fields.html</guid>
+            <pubDate>Sat, 17 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo Domain 波兰表示法]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-Domain.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-Domain.html</guid>
+            <pubDate>Fri, 16 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo Form视图添加按钮和状态条]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-Form-add-button-statusbar.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-Form-add-button-statusbar.html</guid>
+            <pubDate>Thu, 15 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Odoo新建模块]]></title>
+            <link>https://dreamhunter2333.com/posts/odoo/Odoo-building-a-new-model.html</link>
+            <guid>https://dreamhunter2333.com/posts/odoo/Odoo-building-a-new-model.html</guid>
+            <pubDate>Wed, 14 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mipad2 小米平板2 win10 屏蔽三个按键]]></title>
+            <link>https://dreamhunter2333.com/posts/other/mipad2-win10-block-keys.html</link>
+            <guid>https://dreamhunter2333.com/posts/other/mipad2-win10-block-keys.html</guid>
+            <pubDate>Wed, 10 Apr 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[hexo live2d]]></title>
+            <link>https://dreamhunter2333.com/posts/other/hexo-live2d.html</link>
+            <guid>https://dreamhunter2333.com/posts/other/hexo-live2d.html</guid>
+            <pubDate>Tue, 09 Apr 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[hotpatch 驱动 Fn 亮度快捷键]]></title>
+            <link>https://dreamhunter2333.com/posts/hackintosh/hotpatch-fn-brightness.html</link>
+            <guid>https://dreamhunter2333.com/posts/hackintosh/hotpatch-fn-brightness.html</guid>
+            <pubDate>Tue, 02 Apr 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[xampp建站]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/xampp-building-a-website.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/xampp-building-a-website.html</guid>
+            <pubDate>Sun, 31 Mar 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Linux终端下使用酸酸乳]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/Linux-ssr.html</link>
+            <guid>https://dreamhunter2333.com/posts/linux/Linux-ssr.html</guid>
+            <pubDate>Sun, 31 Mar 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[炫龙耀7000 hackintosh 全过程]]></title>
+            <link>https://dreamhunter2333.com/posts/hackintosh/ShinalonYAO7000-hackintosh.html</link>
+            <guid>https://dreamhunter2333.com/posts/hackintosh/ShinalonYAO7000-hackintosh.html</guid>
+            <pubDate>Sun, 31 Mar 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DSDT SSDT 电量显示]]></title>
+            <link>https://dreamhunter2333.com/posts/hackintosh/DSDT-SSDT-battery.html</link>
+            <guid>https://dreamhunter2333.com/posts/hackintosh/DSDT-SSDT-battery.html</guid>
+            <pubDate>Sun, 31 Mar 2019 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

@@ -4,10 +4,16 @@
         <title>Dreamhunter Blog</title>
         <link>https://dreamhunter2333.com</link>
         <description>Dreamhunter Blog</description>
-        <lastBuildDate>Fri, 19 Jul 2024 17:06:01 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Jul 2024 03:45:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2019-至今 DreamHunter</copyright>
+        <item>
+            <title><![CDATA[安装 k3s + ingress nginx + cert-manager, 从 AKS 迁移到 k3s]]></title>
+            <link>https://dreamhunter2333.com/posts/k8s/install-k3s.html</link>
+            <guid>https://dreamhunter2333.com/posts/k8s/install-k3s.html</guid>
+            <pubDate>Sat, 20 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[为 ESP32-CAM 编译支持 camera 的 MicroPython 固件]]></title>
             <link>https://dreamhunter2333.com/posts/micropython/esp32-cam.html</link>

@@ -4,10 +4,16 @@
         <title>Dreamhunter Blog</title>
         <link>https://dreamhunter2333.com</link>
         <description>Dreamhunter Blog</description>
-        <lastBuildDate>Sat, 31 Jan 2026 10:10:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Feb 2026 04:27:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2019-2026 DreamHunter</copyright>
+        <item>
+            <title><![CDATA[macOS UTM 跑 OpenWrt 旁路由 + OpenClash 透明代理实战]]></title>
+            <link>https://dreamhunter2333.com/posts/router/macos-utm-openwrt.html</link>
+            <guid isPermaLink="false">https://dreamhunter2333.com/posts/router/macos-utm-openwrt.html</guid>
+            <pubDate>Thu, 12 Feb 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025 年 - AI 的一年 - 又活了一年]]></title>
             <link>https://dreamhunter2333.com/posts/summary/2025-summary.html</link>

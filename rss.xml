@@ -4,10 +4,16 @@
         <title>Dreamhunter Blog</title>
         <link>https://dreamhunter2333.com</link>
         <description>Dreamhunter Blog</description>
-        <lastBuildDate>Thu, 12 Feb 2026 04:39:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Feb 2026 08:11:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2019-2026 DreamHunter</copyright>
+        <item>
+            <title><![CDATA[PVE 备份到 NAS 且不影响硬盘休眠]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/pve-backup-nas-sleep.html</link>
+            <guid isPermaLink="false">https://dreamhunter2333.com/posts/linux/pve-backup-nas-sleep.html</guid>
+            <pubDate>Sun, 22 Feb 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[macOS UTM 跑 OpenWrt 旁路由 + OpenClash 透明代理实战]]></title>
             <link>https://dreamhunter2333.com/posts/router/macos-utm-openwrt.html</link>

@@ -4,10 +4,16 @@
         <title>Dreamhunter Blog</title>
         <link>https://dreamhunter2333.com</link>
         <description>Dreamhunter Blog</description>
-        <lastBuildDate>Sun, 01 Mar 2026 11:25:11 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Mar 2026 06:21:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2019-2026 DreamHunter</copyright>
+        <item>
+            <title><![CDATA[Hyper-V 安装 PVE（Proxmox VE）]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/hyper-v-install-pve.html</link>
+            <guid isPermaLink="false">https://dreamhunter2333.com/posts/linux/hyper-v-install-pve.html</guid>
+            <pubDate>Fri, 20 Mar 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[PVE 备份到 NAS 且不影响硬盘休眠]]></title>
             <link>https://dreamhunter2333.com/posts/linux/pve-backup-nas-sleep.html</link>

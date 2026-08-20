@@ -4,10 +4,16 @@
         <title>Dreamhunter Blog</title>
         <link>https://dreamhunter2333.com</link>
         <description>Dreamhunter Blog</description>
-        <lastBuildDate>Sat, 18 Apr 2026 11:00:47 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Aug 2026 16:42:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2019-2026 DreamHunter</copyright>
+        <item>
+            <title><![CDATA[PVE 中安装 Tiny10 与基础加固]]></title>
+            <link>https://dreamhunter2333.com/posts/linux/tiny10-on-pve.html</link>
+            <guid isPermaLink="false">https://dreamhunter2333.com/posts/linux/tiny10-on-pve.html</guid>
+            <pubDate>Fri, 21 Aug 2026 09:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Hyper-V 安装 PVE（Proxmox VE）]]></title>
             <link>https://dreamhunter2333.com/posts/linux/hyper-v-install-pve.html</link>
